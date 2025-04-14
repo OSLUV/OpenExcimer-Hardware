@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2fecfe1b-5eec-432b-8de9-8da66107ee5a")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "VDC_power"
+		(shape passive)
+		(at 38.1 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56a45826-c6a0-4499-bcd4-4e5527434970")
+	)
+	(hierarchical_label "Lamp_GND"
+		(shape passive)
+		(at 254 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71102c52-73fb-4b6c-8748-a47418445e10")
+	)
+	(hierarchical_label "15V"
+		(shape passive)
+		(at 38.1 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f3c68d0-a6fa-413b-bc73-09d46221378f")
+	)
+	(hierarchical_label "3V3"
+		(shape passive)
+		(at 38.1 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4500145-e5f7-4652-b512-e39cfba92d03")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 38.1 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afb7e27b-6dd6-4a21-8e88-5fb58dde3699")
+	)
+	(hierarchical_label "Lamp_HV"
+		(shape passive)
+		(at 254 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc29c325-934e-438b-a8a8-b4237f2d7e55")
+	)
+)
