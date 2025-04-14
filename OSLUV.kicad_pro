@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.2,
+          "height": 6.6,
+          "width": 6.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -227,6 +227,10 @@
         {
           "diameter": 0.55,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.35
         }
       ],
       "zones_allow_external_fillets": false
@@ -754,6 +758,10 @@
     [
       "8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364",
       "lampDriver"
+    ],
+    [
+      "a5f17328-71df-4a6c-bc8f-bf5f2aa54abe",
+      "LampIntensity"
     ]
   ],
   "text_variables": {}

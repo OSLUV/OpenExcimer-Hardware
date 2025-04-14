@@ -1118,6 +1118,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Hansmann:640445-2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "640445-2"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "6404452"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/640445-2.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Configuration Features: PCB Mount Orientation Vertical | Number of Power Positions 2 | Number of Positions 2 | Number of Rows 1 | Contact Features: Contact Mating Area Plating Material Thickness 2.54 MICM | Contact Type Pin | Contact Layout Inline | Mating Post Length 10.16 MM | Mating Post Length .4 INCH | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Tin | Contact Mating Area Plating Material Thickness 100 MICIN | Contact Retention Within Housing Without | Contac"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "11.049"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "5716404452"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/640445-2?qs=P8zzrVhehau7EdfErby3cQ%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "640445-2"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "640445-2_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Hansmann:750343466"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5212,6 +5364,12 @@
 		(uuid "243f4a4b-95d9-42fd-8c51-9397a03107e7")
 	)
 	(junction
+		(at 269.24 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28450edb-1894-405a-8aa8-de9d8b2ce439")
+	)
+	(junction
 		(at 100.33 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5336,6 +5494,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "717e2e60-a708-448a-9d2c-6276dc401df4")
+	)
+	(junction
+		(at 266.7 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76402c5d-b287-4e10-aa54-370f217e5b20")
 	)
 	(junction
 		(at 78.74 140.97)
@@ -6025,6 +6189,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 132.08) (xy 269.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d541a3-08dc-4644-b31d-bc5cb8209398")
+	)
+	(wire
+		(pts
 			(xy 76.2 132.08) (xy 76.2 123.19)
 		)
 		(stroke
@@ -6232,6 +6406,16 @@
 			(type default)
 		)
 		(uuid "77426545-b44f-4645-a44c-7e680dd4e4bd")
+	)
+	(wire
+		(pts
+			(xy 269.24 118.11) (xy 273.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78203aba-691f-4100-8f3c-4fe2ce229d2a")
 	)
 	(wire
 		(pts
@@ -6635,6 +6819,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 134.62) (xy 269.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a708e3bc-2f23-4a48-b022-d6323667cb9a")
+	)
+	(wire
+		(pts
 			(xy 46.99 113.03) (xy 30.48 113.03)
 		)
 		(stroke
@@ -6672,6 +6866,16 @@
 			(type default)
 		)
 		(uuid "b27c5ea9-af6c-46ce-8bab-9ce1ba6709f0")
+	)
+	(wire
+		(pts
+			(xy 266.7 125.73) (xy 266.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a2e1de-e60a-439d-9c2f-2ba3114fbb90")
 	)
 	(wire
 		(pts
@@ -6925,13 +7129,23 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 118.11) (xy 273.05 118.11)
+			(xy 262.89 118.11) (xy 269.24 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d4354698-9d68-4662-b5fd-b1308bc8be53")
+	)
+	(wire
+		(pts
+			(xy 266.7 125.73) (xy 273.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5146cfc-0d03-416d-afd8-8c40848fc9e9")
 	)
 	(wire
 		(pts
@@ -7225,7 +7439,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 125.73) (xy 273.05 125.73)
+			(xy 262.89 125.73) (xy 266.7 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7491,6 +7705,21 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 53.34 29.21) (xy 53.34 73.66) (xy 180.34 73.66) (xy 180.34 54.61) (xy 223.52 54.61) (xy 223.52 29.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 063db195-5a83-4813-bbd7-e51e61191ab5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 165.1 110.49) (xy 165.1 77.47) (xy 24.13 77.47) (xy 24.13 109.22) (xy 36.83 109.22) (xy 36.83 85.09)
 				(xy 87.63 85.09) (xy 87.63 110.49) (xy 92.71 110.49)
 			)
@@ -7501,22 +7730,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 2ba05b02-0d14-4ba9-ad90-e1420c5aedd4)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 53.34 29.21) (xy 53.34 73.66) (xy 180.34 73.66) (xy 180.34 54.61) (xy 223.52 54.61) (xy 223.52 29.21)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 932b7218-7d54-4536-97f1-aa7e78d0a76b)
+			(uuid 9f60426c-8f03-42ad-8342-877184e00191)
 		)
 	)
 	(rule_area
@@ -7531,7 +7745,7 @@
 			(fill
 				(type none)
 			)
-			(uuid eabc88ee-a70e-4056-a5dc-3a9011e4ef95)
+			(uuid b2e0c30e-8f7e-4d1a-8347-5b824429539d)
 		)
 	)
 	(netclass_flag ""
@@ -10950,6 +11164,128 @@
 			(project "OSLUV"
 				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/a8d7965e-5268-4c95-93ca-40f8dbbf325c"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hansmann:640445-2")
+		(at 269.24 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7742a6d9-bcf7-4f65-9d9c-0e21e7585ebb")
+		(property "Reference" "J5"
+			(at 276.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "640445-2"
+			(at 274.574 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "6404452"
+			(at 285.75 39.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/640445-2.pdf"
+			(at 285.75 -60.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Configuration Features: PCB Mount Orientation Vertical | Number of Power Positions 2 | Number of Positions 2 | Number of Rows 1 | Contact Features: Contact Mating Area Plating Material Thickness 2.54 MICM | Contact Type Pin | Contact Layout Inline | Mating Post Length 10.16 MM | Mating Post Length .4 INCH | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Tin | Contact Mating Area Plating Material Thickness 100 MICIN | Contact Retention Within Housing Without | Contac"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.049"
+			(at 285.75 -260.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "5716404452"
+			(at 285.75 -360.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/640445-2?qs=P8zzrVhehau7EdfErby3cQ%3D%3D"
+			(at 285.75 -460.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 285.75 -560.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "640445-2"
+			(at 285.75 -660.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0de4195-dacf-4748-801e-9b8587a626be")
+		)
+		(pin "1"
+			(uuid "8364c65e-3187-441c-907c-9bccafbbb841")
+		)
+		(instances
+			(project "OSLUV"
+				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/a8d7965e-5268-4c95-93ca-40f8dbbf325c"
+					(reference "J5")
 					(unit 1)
 				)
 			)
