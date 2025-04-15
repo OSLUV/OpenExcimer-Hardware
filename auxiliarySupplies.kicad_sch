@@ -2290,50 +2290,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c019924-4b19-41ad-b2a1-5cd6bf4daec7")
-		(property "Reference" "L5"
-			(at 105.1877 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4030_74438357068"
-			(at 105.41 81.28 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-4030"
-			(at 105.41 71.12 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74438357068.pdf?ki"
-			(at 157.48 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Shielded Power Inductor"
-			(at 105.41 78.74 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Wurth Elektronik"
 			(at 157.48 63.5 0)
 			(hide yes)
@@ -2453,6 +2409,50 @@
 		)
 		(property "Critical Parameter" "6.8 µH"
 			(at 105.1877 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reference" "L5"
+			(at 105.1877 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4030_74438357068"
+			(at 105.41 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-4030"
+			(at 105.41 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74438357068.pdf?ki"
+			(at 157.48 60.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shielded Power Inductor"
+			(at 105.41 78.74 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)

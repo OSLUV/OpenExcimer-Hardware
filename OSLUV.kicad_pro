@@ -511,6 +511,34 @@
         "clearance": 2.1,
         "name": "HV_Drain",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 1.4,
+        "name": "HV_Drain_div",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.7,
+        "name": "HV_Drain_div2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 13.5,
+        "name": "HV_Lamp",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 6.75,
+        "name": "HV_Lamp/2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
@@ -518,7 +546,7 @@
         "clearance": 2.5,
         "name": "MAINS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.7,
@@ -528,7 +556,7 @@
         "clearance": 4.1,
         "name": "MAINS_preFuse",
         "pcb_color": "rgb(183, 0, 0)",
-        "priority": 3,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.7,
@@ -538,7 +566,7 @@
         "clearance": 1.2,
         "name": "Off_HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.55,
@@ -577,6 +605,9 @@
       "/excimerDriver/lampDriver/HV_Drain": [
         "HV_Drain"
       ],
+      "/excimerDriver/lampDriver/Lamp_HV": [
+        "HV_Lamp"
+      ],
       "/offlineConverter/Drain": [
         "Off_HV"
       ],
@@ -604,11 +635,20 @@
       "Earth": [
         "MAINS_preFuse"
       ],
+      "Net-(C55-Pad2)": [
+        "HV_Drain_div"
+      ],
+      "Net-(C56-Pad2)": [
+        "HV_Drain_div2"
+      ],
       "Net-(C9-Pad2)": [
         "Off_HV"
       ],
       "Net-(D2-K)": [
         "Off_HV"
+      ],
+      "Net-(L7-Pad5)": [
+        "HV_Lamp/2"
       ],
       "Net-(R10-Pad1)": [
         "Off_HV"
@@ -626,7 +666,7 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "/excimerDriver/lampDriver/HV_Drain"
+        "pattern": ""
       }
     ]
   },
