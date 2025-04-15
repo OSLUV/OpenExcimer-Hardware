@@ -508,10 +508,17 @@
         "wire_width": 6
       },
       {
+        "clearance": 2.1,
+        "name": "HV_Drain",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "clearance": 2.5,
         "name": "MAINS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.7,
@@ -521,7 +528,7 @@
         "clearance": 4.1,
         "name": "MAINS_preFuse",
         "pcb_color": "rgb(183, 0, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.7,
@@ -531,7 +538,7 @@
         "clearance": 1.2,
         "name": "Off_HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.55,
@@ -566,6 +573,9 @@
       ],
       "/PDC_Rect": [
         "MAINS"
+      ],
+      "/excimerDriver/lampDriver/HV_Drain": [
+        "HV_Drain"
       ],
       "/offlineConverter/Drain": [
         "Off_HV"
@@ -616,7 +626,7 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": ""
+        "pattern": "/excimerDriver/lampDriver/HV_Drain"
       }
     ]
   },

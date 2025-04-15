@@ -919,12 +919,6 @@
 		)
 	)
 	(junction
-		(at 114.3 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09bdfaf3-fba2-480f-91e4-dedf56084c5b")
-	)
-	(junction
 		(at 41.91 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -937,12 +931,6 @@
 		(uuid "1a9607c1-d540-456c-b2f4-aa9a797f8ca5")
 	)
 	(junction
-		(at 114.3 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f0c13fa-a6bb-41ab-817e-bad1a9afcc48")
-	)
-	(junction
 		(at 114.3 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -953,12 +941,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31b63439-016a-445d-ae25-1a741cd14f65")
-	)
-	(junction
-		(at 121.92 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4034d2ed-29ae-4d3a-ada3-0b0124aba189")
 	)
 	(junction
 		(at 114.3 40.64)
@@ -1055,12 +1037,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed116501-ed3f-4872-a837-e97a2bfa8341")
-	)
-	(junction
-		(at 120.65 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef873aa7-7c4e-4a2f-aa4c-9f1060b00ecb")
 	)
 	(wire
 		(pts
@@ -1234,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 121.92 78.74)
+			(xy 114.3 78.74) (xy 138.43 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1344,16 +1320,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 78.74) (xy 138.43 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71c5e57c-0ef4-469d-a01a-ffbfe6680225")
-	)
-	(wire
-		(pts
 			(xy 109.22 40.64) (xy 114.3 40.64)
 		)
 		(stroke
@@ -1391,26 +1357,6 @@
 			(type default)
 		)
 		(uuid "7c7ab392-a54b-4e8d-91de-93269bdf73f4")
-	)
-	(wire
-		(pts
-			(xy 114.3 50.8) (xy 120.65 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c8122f1-11d8-45c7-a4f9-e34448988e80")
-	)
-	(wire
-		(pts
-			(xy 114.3 88.9) (xy 121.92 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cc7755b-97ff-48cd-9e81-fb8b3c43a2e5")
 	)
 	(wire
 		(pts
@@ -1494,16 +1440,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 40.64) (xy 137.16 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51a3555-9ee6-423a-aac2-304856b0122a")
-	)
-	(wire
-		(pts
 			(xy 109.22 78.74) (xy 114.3 78.74)
 		)
 		(stroke
@@ -1524,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 40.64) (xy 120.65 40.64)
+			(xy 114.3 40.64) (xy 137.16 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1692,26 +1628,6 @@
 		)
 		(uuid "f7e1d62d-a049-4262-a419-86fabe5d9317")
 	)
-	(wire
-		(pts
-			(xy 120.65 48.26) (xy 120.65 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc1d4291-2ae1-4c9d-bdd6-25ac8a3e78bf")
-	)
-	(wire
-		(pts
-			(xy 121.92 88.9) (xy 121.92 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffbc576f-54d0-47aa-b221-f2e4d7624e84")
-	)
 	(hierarchical_label "3V3"
 		(shape passive)
 		(at 138.43 78.74 0)
@@ -1755,75 +1671,6 @@
 			(justify right)
 		)
 		(uuid "a0d54053-9613-4d5d-9ce5-ac90b3f38dd6")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 120.65 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02369160-b324-4730-9483-fb9bee7ba1f0")
-		(property "Reference" "C40"
-			(at 122.174 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u X7R 1210"
-			(at 122.174 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 121.6152 48.26 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 44.45 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 44.45 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bfb466d2-a715-4459-b41f-1b39c88aa115")
-		)
-		(pin "2"
-			(uuid "a07edd39-8df8-414a-a7ff-9b8d0d7fa58d")
-		)
-		(instances
-			(project "OSLUV"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/99bcf9c2-6310-4c69-b56b-dc8cdbf45567"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2443,6 +2290,50 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c019924-4b19-41ad-b2a1-5cd6bf4daec7")
+		(property "Reference" "L5"
+			(at 105.1877 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4030_74438357068"
+			(at 105.41 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-4030"
+			(at 105.41 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74438357068.pdf?ki"
+			(at 157.48 60.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shielded Power Inductor"
+			(at 105.41 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Manufacturer" "Wurth Elektronik"
 			(at 157.48 63.5 0)
 			(hide yes)
@@ -2562,50 +2453,6 @@
 		)
 		(property "Critical Parameter" "6.8 µH"
 			(at 105.1877 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "L5"
-			(at 105.1877 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4030_74438357068"
-			(at 105.41 81.28 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-4030"
-			(at 105.41 71.12 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74438357068.pdf?ki"
-			(at 157.48 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Shielded Power Inductor"
-			(at 105.41 78.74 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,75 +3206,6 @@
 			(project ""
 				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/99bcf9c2-6310-4c69-b56b-dc8cdbf45567"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 121.92 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed096288-2ed1-4942-a8e6-e3b5d19bfac0")
-		(property "Reference" "C41"
-			(at 124.46 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u X7R 1210"
-			(at 123.19 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 122.8852 86.36 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 82.55 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 121.92 82.55 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2ee9fa8-0922-496a-adf6-fcda8633916c")
-		)
-		(pin "2"
-			(uuid "e57351c8-2d16-4a86-9620-278ace08fd7c")
-		)
-		(instances
-			(project "OSLUV"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/99bcf9c2-6310-4c69-b56b-dc8cdbf45567"
-					(reference "C41")
 					(unit 1)
 				)
 			)

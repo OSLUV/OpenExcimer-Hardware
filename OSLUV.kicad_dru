@@ -1,0 +1,6 @@
+(version 1)
+
+# Clearance for HV Drain nets to anything else
+(rule HV
+    (condition "A.hasNetclass('HV_Drain')")
+    (constraint clearance (min 2.1mm)))
