@@ -7705,6 +7705,21 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 21.59 29.21) (xy 21.59 73.66) (xy 52.07 73.66) (xy 52.07 33.655) (xy 52.07 29.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 29d1c13f-9615-49bd-bf7b-6c3645452ae9)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 53.34 29.21) (xy 53.34 73.66) (xy 180.34 73.66) (xy 180.34 54.61) (xy 223.52 54.61) (xy 223.52 29.21)
 			)
 			(stroke
@@ -7714,7 +7729,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 063db195-5a83-4813-bbd7-e51e61191ab5)
+			(uuid 3d2f3f82-936a-4e65-8c70-bc2f7391ed2a)
 		)
 	)
 	(rule_area
@@ -7730,22 +7745,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 9f60426c-8f03-42ad-8342-877184e00191)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 21.59 29.21) (xy 21.59 73.66) (xy 52.07 73.66) (xy 52.07 33.655) (xy 52.07 29.21)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid b2e0c30e-8f7e-4d1a-8347-5b824429539d)
+			(uuid b4aedf07-e7a1-4648-a89e-255cfe79b8c3)
 		)
 	)
 	(netclass_flag ""
@@ -8939,7 +8939,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL432DBZ"
+		(property "Value" "AZ431LANTR"
 			(at 208.28 165.0999 90)
 			(effects
 				(font
