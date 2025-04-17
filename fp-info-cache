@@ -1,4 +1,4 @@
-25912528540305507
+25977076733604665
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -3545,6 +3545,97 @@ Capacitor_SMD
 C_Trimmer_Voltronics_JZ
 trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
  Voltronics JR
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1808_X1Y2_H1.4
+MLCCS Interference Suppression Safety Capacitors, body 4.5x2x1.4mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1808
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1808_X1Y2_H1.6
+MLCCS Interference Suppression Safety Capacitors, body 4.5x2x1.6mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1808
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1808_X1Y2_H2.0
+MLCCS Interference Suppression Safety Capacitors, body 4.5x2x2mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1808
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1808_X2_H1.4
+MLCCS Interference Suppression Safety Capacitors, body 4.5x2x1.4mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1808
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1808_X2_H1.6
+MLCCS Interference Suppression Safety Capacitors, body 4.5x2x1.6mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1808
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1808_X2_H2.0
+MLCCS Interference Suppression Safety Capacitors, body 4.5x2x2mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1808
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1812_X1Y2_H1.6
+MLCCS Interference Suppression Safety Capacitors, body 4.5x3.2x1.6mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1812
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1812_X1Y2_H2.0
+MLCCS Interference Suppression Safety Capacitors, body 4.5x3.2x2mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1812
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1812_X1Y2_H2.5
+MLCCS Interference Suppression Safety Capacitors, body 4.5x3.2x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1812
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1812_X2_H1.6
+MLCCS Interference Suppression Safety Capacitors, body 4.5x3.2x1.6mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1812
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-1812_X2_H2.5
+MLCCS Interference Suppression Safety Capacitors, body 4.5x3.2x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-1812
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-2211
+MLCCS Interference Suppression Safety Capacitors, body 5.7x2.8x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-2211
+SMT
+0
+2
+2
+Capacitor_SMD_Wurth
+C_Wurth_WCAP-CSSA-2220
+MLCCS Interference Suppression Safety Capacitors, body 5.7x5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-2220
+SMT
 0
 2
 2
@@ -60199,6 +60290,174 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+Hansmann
+37204000431
+8.5mm x 8mm
+Fuse
+0
+2
+2
+Hansmann
+643495-2
+
+
+0
+3
+3
+Hansmann
+6404452
+640445-2
+Connector
+0
+2
+2
+Hansmann
+750343466
+750343466-1
+Transformer
+0
+14
+14
+Hansmann
+B08BXASK1ALFSN
+B08B-XASK-1-A(LF)(SN)-3
+Connector
+0
+8
+8
+Hansmann
+B32021__13_x_4_
+B32021_(13_x_4)
+Capacitor
+0
+2
+2
+Hansmann
+B32921C__13_x_6_
+B32921C_(13_x_6)
+Capacitor
+0
+2
+2
+Hansmann
+B57235S0509M000
+B57235S0509M000-1
+Thermistor
+0
+2
+2
+Hansmann
+B66359B1013T001
+B66359B1013T001-2
+Inductor
+0
+13
+13
+Hansmann
+B72207S2301K101
+S07K300E2
+Varistor
+0
+2
+2
+Hansmann
+BM02BSRSSTBLFSN
+BM02B-SRSS-TB(LF)(SN)-3
+Connector
+0
+4
+4
+Hansmann
+CAPPRD500W60D1025H2700
+10*25
+Capacitor Polarised
+0
+2
+2
+Hansmann
+CONN_B2P5-VH_JST
+
+B5P-VH 
+0
+2
+2
+Hansmann
+CONN_B5P-VH_JST
+
+B5P-VH 
+0
+5
+5
+Hansmann
+MKP1G031004D00JSC4
+MKP1G031004D00JSC4-2
+Capacitor
+0
+2
+2
+Hansmann
+Mounting_M3_NPTH_Vias
+
+
+0
+10
+1
+Hansmann
+QFP80P900X900X160-32N
+LQFP32-1
+Integrated Circuit
+0
+32
+32
+Hansmann
+SOP254P978X406-4N
+SMD-4*-*
+Integrated Circuit
+0
+4
+4
+Hansmann
+SOP510P1005X293-4N
+MC0402
+Bridge Rectifier
+0
+4
+4
+Hansmann
+SOT95P275X110-6N
+NCP12510ASN65T1G
+Integrated Circuit
+0
+6
+6
+Hansmann
+SOT95P280X90-6N
+TSOT26
+Integrated Circuit
+0
+6
+6
+Hansmann
+SOT95P280X145-5N
+FAN3100TSX
+Integrated Circuit
+0
+5
+5
+Hansmann
+TAG-CONNECT_TC2050-IDC
+
+
+0
+10
+10
+Hansmann
+TO-263-7_TabPin2
+TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
+D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
+0
+12
+8
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
