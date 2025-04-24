@@ -631,6 +631,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode, filled shape"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_Filled_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Zener_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -4159,12 +4310,6 @@
 		(uuid "298be4e6-0c1a-4b71-976b-daa56a04c778")
 	)
 	(junction
-		(at 57.15 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ce5dafb-c408-4bf1-876b-af4bcfe1a3d3")
-	)
-	(junction
 		(at 107.95 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4241,6 +4386,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a13c7092-dec6-41fb-b5df-f5e0077612dd")
+	)
+	(junction
+		(at 54.61 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a603e530-b15f-4193-9337-45ef172dda6d")
+	)
+	(junction
+		(at 64.77 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7ed5d97-58a6-40a5-a409-ba72c2a19f3e")
 	)
 	(junction
 		(at 82.55 50.8)
@@ -4325,6 +4482,16 @@
 			(type default)
 		)
 		(uuid "05656cda-c2e1-4c83-a4a2-58d133ff91c5")
+	)
+	(wire
+		(pts
+			(xy 54.61 25.4) (xy 64.77 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076dfee1-651c-4d4a-b4b1-fe5a692150e9")
 	)
 	(wire
 		(pts
@@ -4528,7 +4695,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 25.4) (xy 57.15 25.4)
+			(xy 52.07 25.4) (xy 54.61 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4815,6 +4982,16 @@
 			(type default)
 		)
 		(uuid "4f96c63a-60c5-4058-96d2-debb8ff7772c")
+	)
+	(wire
+		(pts
+			(xy 54.61 25.4) (xy 54.61 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5080069e-ead6-4138-a937-aa70513171d3")
 	)
 	(wire
 		(pts
@@ -5128,16 +5305,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 25.4) (xy 69.85 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "896ca1c6-4de6-4e34-a73b-102d0d59a2ae")
-	)
-	(wire
-		(pts
 			(xy 99.06 67.31) (xy 116.84 67.31)
 		)
 		(stroke
@@ -5175,6 +5342,16 @@
 			(type default)
 		)
 		(uuid "923b801f-f2be-4c6a-8036-51648b74efa2")
+	)
+	(wire
+		(pts
+			(xy 64.77 25.4) (xy 69.85 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c520b5-5a94-4a50-a453-fce8c2632345")
 	)
 	(wire
 		(pts
@@ -5318,7 +5495,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 38.1) (xy 57.15 33.02)
+			(xy 64.77 33.02) (xy 64.77 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5526,6 +5703,16 @@
 			(type default)
 		)
 		(uuid "cc616b77-dd0a-4612-8cd2-90e322a7a8fd")
+	)
+	(wire
+		(pts
+			(xy 54.61 35.56) (xy 54.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdfbc757-047e-4973-af02-d079305322d0")
 	)
 	(wire
 		(pts
@@ -7001,7 +7188,43 @@
 			"////CJ/syiIBAAD4/////////wQAAAAiAQAA+P////////8oczLTIgEAAPj/////////BAAAACIB"
 			"AAD4/////////yhzMtMiAQAA+P////////8EAAAAIgEAAPj/////////BAAAACIBAAD4////////"
 			"/yhzMtMiAQAA+P////////8EAAAAIgEAAPj/////////KHMy0yIBAAD4/////////yhzMtMiAQAA"
-			"+P////////8EAAAAIgEAAA=="
+			"+P////////8EAAAAIgEAAGaKDD5DdIJB3WLewGaKDD4AAACAAAAAAAAAgL8AAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAD///////////////8AAAAAAAAAgGaKDD4CAAAA5TYdQI+ERMAAAACA5TYdwAAA"
+			"AAAAAAAAe/I+Fd4MAYDgjqtF/n8AADsPhUECXNHAZYoMPhmwhkHLbdDAZ4oMPqrfhUHm5NDAZooM"
+			"PgUAAAAgJvNF/n8AACBwzrXeAQAAAAAAAN4BAAA+/FYnLr07swAAgL/trYknLr07swAAgL/trYkn"
+			"Lr07swAAgL8YsIZBzG3QwGaKDD48D4VBzG3QwGaKDD48D4VBAVzRwGaKDD4AAACAAAAAAP//f78A"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////8AAAAAAAAAgGaKDD4CAAAAno8JQrQ2"
+			"ncAAAACAno8JwsB5EfveAQAACvJNFd4NAYDgjqtF/n8AAEJ0gkHeYt7AZYoMPj0PhUEAXNHAZ4oM"
+			"PsDBg0Fv39fAZooMPgUAAAAgJvNF/n8AACBwzrXeAQAAAAAAAAAAAADtrYknLr07swAAgL9JbIkn"
+			"Lr07swAAgL9NTIonLr07swAAgL88D4VBAVzRwGaKDD5DdIJB3WLewGaKDD48D4VB3WLewGaKDD4A"
+			"AAAAAAAAgAAAgL8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////8AAACAAAAAAGaK"
+			"DD4CAAAAAAAAgI+ERMCPhERA5TYdwAAAAAAAAAAAGfJcFQAOAYDgjqtF/n8AAGDEfkECXNHAp8y5"
+			"PfKCf0HLbdDAZ4oMPqkjf0Hm5NDAunDpPQUAAAAgJvNF/n8AACBwzrXeAQAAAAAAAN4BAADzBDU/"
+			"YsAEM/MENb/zBDU/Y8AEM/MENb/zBDU/YsAEM/MENb/xgn9BzG3QwGaKDD5hxH5BzG3QwKjMuT1h"
+			"xH5BAVzRwKjMuT0VBTU/AAAAANEENb8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////"
+			"//8AAAAAn/9/v8lQfUEAAAAA/vOrwZ6PCUKejwnCAAAAgOB5EfveAQAAKPJjFd4PAYDgjqtF/n8A"
+			"AGDEfkECXNHAp8y5PfKCf0HLbdDAZ4oMPqkjf0Hm5NDAunDpPQUAAAAgJvNF/n8AACBwzrXeAQAA"
+			"AAAAAAAAAADzBDU/YsAEM/MENb/zBDU/YsAEM/MENb/zBDU/YsAEM/MENb/xgn9BzG3QwGaKDD5h"
+			"xH5BAVzRwKjMuT3xgn9BAVzRwGaKDD4VBTU/AAAAANEENb8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAD///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(label "MCU_TX"
@@ -10063,7 +10286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 38.1 0)
+		(at 64.77 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10072,7 +10295,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c89c6a2-36ac-45c7-974a-860302c1d811")
 		(property "Reference" "#PWR023"
-			(at 57.15 44.45 0)
+			(at 64.77 44.45 0)
 			(hide yes)
 			(effects
 				(font
@@ -10081,7 +10304,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 43.18 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10089,7 +10312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 38.1 0)
+			(at 64.77 38.1 0)
 			(hide yes)
 			(effects
 				(font
@@ -10098,7 +10321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 38.1 0)
+			(at 64.77 38.1 0)
 			(hide yes)
 			(effects
 				(font
@@ -10107,7 +10330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 38.1 0)
+			(at 64.77 38.1 0)
 			(hide yes)
 			(effects
 				(font
@@ -10460,7 +10683,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 57.15 29.21 0)
+		(at 64.77 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10469,7 +10692,7 @@
 		(fields_autoplaced yes)
 		(uuid "7096e528-4fab-4cf2-9950-2d27fb9f2c68")
 		(property "Reference" "C25"
-			(at 60.96 27.0509 0)
+			(at 68.58 27.0509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10478,7 +10701,7 @@
 			)
 		)
 		(property "Value" "330µ 35V"
-			(at 60.96 29.5909 0)
+			(at 68.58 29.5909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,7 +10710,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
-			(at 58.1152 33.02 0)
+			(at 65.7352 33.02 0)
 			(hide yes)
 			(effects
 				(font
@@ -10496,7 +10719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 29.21 0)
+			(at 64.77 29.21 0)
 			(hide yes)
 			(effects
 				(font
@@ -10505,7 +10728,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 57.15 29.21 0)
+			(at 64.77 29.21 0)
 			(hide yes)
 			(effects
 				(font
@@ -10998,6 +11221,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 54.61 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88e8ffba-43c7-4dc2-8771-47652fc6465c")
+		(property "Reference" "#PWR074"
+			(at 54.61 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ab89def-f262-45bc-8b4b-ba3025fbd27d")
+		)
+		(instances
+			(project "OSLUV"
+				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 241.3 41.91 180)
 		(unit 1)
@@ -11462,6 +11751,75 @@
 			(project "OSLUV"
 				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 54.61 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abc2d37a-7234-4c2b-bcaa-cb429d531451")
+		(property "Reference" "D21"
+			(at 48.514 30.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3KASMC24AHE3"
+			(at 58.42 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 54.61 31.75 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 31.75 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 54.61 31.75 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51cf1363-5a8d-4b2c-ad06-287f4d6244c2")
+		)
+		(pin "2"
+			(uuid "02a29c71-8b57-4cc1-b600-388ed6a23ffe")
+		)
+		(instances
+			(project ""
+				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9"
+					(reference "D21")
 					(unit 1)
 				)
 			)

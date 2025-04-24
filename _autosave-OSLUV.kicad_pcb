@@ -5810,7 +5810,7 @@
 	(footprint "Hansmann:B66359B1013T001"
 		(layer "F.Cu")
 		(uuid "0def206c-2be5-4a73-aabd-bba4bee2dce4")
-		(at 74 177.575 90)
+		(at 77.75 115 90)
 		(descr "B66359B1013T001-2")
 		(tags "Inductor")
 		(property "Reference" "L7"
@@ -26650,7 +26650,7 @@
 			(uuid "07cc4594-54ff-4631-9856-e9b7a366a8bf")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-LQ-1812.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-LQ-1812.step"
 			(offset
 				(xyz 0 0 0)
 			)
