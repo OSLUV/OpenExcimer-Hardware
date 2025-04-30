@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20250318)
+	(version 20250425)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "e5c1d8a4-0ede-45a9-a97d-ae5d32b61638")
@@ -7731,8 +7731,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 165.1 110.49) (xy 165.1 77.47) (xy 24.13 77.47) (xy 24.13 109.22) (xy 36.83 109.22) (xy 36.83 85.09)
-				(xy 87.63 85.09) (xy 87.63 110.49) (xy 92.71 110.49)
+				(xy 53.34 29.21) (xy 53.34 73.66) (xy 180.34 73.66) (xy 180.34 54.61) (xy 223.52 54.61) (xy 223.52 29.21)
 			)
 			(stroke
 				(width 0)
@@ -7741,7 +7740,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 27dbbce9-695c-45c0-9e0e-27ef73c433da)
+			(uuid 3f647986-540d-490d-9633-e446bab501c7)
 		)
 	)
 	(rule_area
@@ -7756,13 +7755,14 @@
 			(fill
 				(type none)
 			)
-			(uuid 90cf57a1-3e18-427c-9b1e-8547fe219ca0)
+			(uuid 74dfbeae-fc6e-4cf2-8454-21b251ba0eab)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 53.34 29.21) (xy 53.34 73.66) (xy 180.34 73.66) (xy 180.34 54.61) (xy 223.52 54.61) (xy 223.52 29.21)
+				(xy 165.1 110.49) (xy 165.1 77.47) (xy 24.13 77.47) (xy 24.13 109.22) (xy 36.83 109.22) (xy 36.83 85.09)
+				(xy 87.63 85.09) (xy 87.63 110.49) (xy 92.71 110.49)
 			)
 			(stroke
 				(width 0)
@@ -7771,7 +7771,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b53b56f1-4648-45dd-933e-773f4a7de791)
+			(uuid 979e655c-1195-48af-bab8-eb452cf0dbdf)
 		)
 	)
 	(netclass_flag ""
@@ -8148,6 +8148,50 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12495db1-4a33-4fc4-8817-07d0aaae28ea")
+		(property "Reference" "L2"
+			(at 222.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7447037"
+			(at 222.25 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_THT_Wurth:L_Wurth_WE-FI_7447037"
+			(at 222.25 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/7447037.pdf?ki"
+			(at 274.32 34.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Leaded Toroidal Line Choke"
+			(at 222.25 52.07 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Manufacturer" "Wurth Elektronik"
 			(at 274.32 36.83 0)
 			(hide yes)
@@ -8237,50 +8281,6 @@
 				)
 			)
 		)
-		(property "Reference" "L2"
-			(at 222.25 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "7447037"
-			(at 222.25 54.61 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_THT_Wurth:L_Wurth_WE-FI_7447037"
-			(at 222.25 44.45 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/7447037.pdf?ki"
-			(at 274.32 34.29 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Leaded Toroidal Line Choke"
-			(at 222.25 52.07 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a64ea6b8-5bdc-4f48-9fa8-8e4ac415a7c1")
 		)
@@ -8306,6 +8306,53 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13bc17d0-71d8-4744-8291-e47146da5620")
+		(property "Reference" "C5"
+			(at 237.49 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "400BXW27MEFR10X25"
+			(at 237.49 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD500W60D1025H2700"
+			(at 137.49 60.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_BXW.pdf"
+			(at 37.49 60.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded LONG LIFE ELECTROLYTIC CAPACITORS"
+			(at 233.68 52.07 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" "27"
 			(at -162.51 60.96 0)
 			(hide yes)
@@ -8356,53 +8403,6 @@
 				(justify left top)
 			)
 		)
-		(property "Reference" "C5"
-			(at 237.49 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "400BXW27MEFR10X25"
-			(at 237.49 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CAPPRD500W60D1025H2700"
-			(at 137.49 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_BXW.pdf"
-			(at 37.49 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded LONG LIFE ELECTROLYTIC CAPACITORS"
-			(at 233.68 52.07 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "352b5650-0b44-424e-bf56-29914e6d9022")
 		)
@@ -8429,6 +8429,51 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14f7d914-90e7-4635-9a71-adc97aa70886")
+		(property "Reference" "IC2"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SFH6156-3"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP254P978X406-4N"
+			(at 184.15 242.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83671/sfh6156.pdf"
+			(at 184.15 342.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Optocoupler DC-IN 1-CH Transistor DC-OUT 4-Pin PDIP SMD"
+			(at 200.66 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" "4.059"
 			(at 184.15 542.24 0)
 			(hide yes)
@@ -8477,51 +8522,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "IC2"
-			(at 190.5 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SFH6156-3"
-			(at 190.5 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP254P978X406-4N"
-			(at 184.15 242.24 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83671/sfh6156.pdf"
-			(at 184.15 342.24 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Optocoupler DC-IN 1-CH Transistor DC-OUT 4-Pin PDIP SMD"
-			(at 200.66 147.32 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -9163,6 +9163,53 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "393d9a4c-b273-4d1e-9b84-4b492d1cedaa")
+		(property "Reference" "RV1"
+			(at 72.39 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72207S2301K101"
+			(at 72.39 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "B72207S2301K101"
+			(at 164.77 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/protection/voltage/lead-disk-varistor/data_sheet/70/db/var/siov_leaded_advanced.pdf"
+			(at 264.77 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Leaded Disk Varistors, Max. Operating Voltage [AC]=300Vrms, Max. Surge Current Imax(8/20us,1time)=1750A"
+			(at 68.58 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" "11"
 			(at 464.77 48.26 0)
 			(hide yes)
@@ -9211,53 +9258,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "RV1"
-			(at 72.39 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B72207S2301K101"
-			(at 72.39 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "B72207S2301K101"
-			(at 164.77 48.26 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/protection/voltage/lead-disk-varistor/data_sheet/70/db/var/siov_leaded_advanced.pdf"
-			(at 264.77 48.26 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Leaded Disk Varistors, Max. Operating Voltage [AC]=300Vrms, Max. Surge Current Imax(8/20us,1time)=1750A"
-			(at 68.58 62.23 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9420,6 +9420,49 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41ef49cc-f8fc-4c56-bf12-a82197abbe79")
+		(property "Reference" "L1"
+			(at 179.959 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TypeXS_744821039"
+			(at 179.959 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_THT_Wurth:L_Wurth_WE-CMB-XS_744821039"
+			(at 180.34 46.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/744821039.pdf?ki"
+			(at 232.41 36.83 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Common Mode Power Line Choke"
+			(at 180.34 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Manufacturer" "Wurth Elektronik"
 			(at 232.41 39.37 0)
 			(hide yes)
@@ -9572,49 +9615,6 @@
 				)
 			)
 		)
-		(property "Reference" "L1"
-			(at 179.959 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TypeXS_744821039"
-			(at 179.959 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_THT_Wurth:L_Wurth_WE-CMB-XS_744821039"
-			(at 180.34 46.99 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/744821039.pdf?ki"
-			(at 232.41 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Common Mode Power Line Choke"
-			(at 180.34 54.61 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "f0948a81-9734-4a08-8d65-24bbc7d31d4b")
 		)
@@ -9646,24 +9646,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43727de5-3e65-4620-86c5-da5eaf9eba0e")
-		(property "Sim.Device" "D"
-			(at 133.35 111.76 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 111.76 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D5"
 			(at 133.35 105.41 0)
 			(effects
@@ -9699,6 +9681,24 @@
 			)
 		)
 		(property "Description" "Diode"
+			(at 133.35 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 133.35 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 133.35 111.76 0)
 			(hide yes)
 			(effects
@@ -9866,6 +9866,51 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4df0081d-de63-497e-b112-4a9903d6a13d")
+		(property "Reference" "C16"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B32021A3222M189"
+			(at 190.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hansmann:B32021__13_x_4_"
+			(at 187.96 223.19 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/y2_b32021_026.pdf"
+			(at 187.96 323.19 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "EMI Suppression Capacitors, 0.0022uF, 300Vrms AC, 4m(W) x 9m(H) x 13m(L)"
+			(at 196.85 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" ""
 			(at 187.96 523.19 0)
 			(hide yes)
@@ -9914,51 +9959,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "C16"
-			(at 190.5 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B32021A3222M189"
-			(at 190.5 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hansmann:B32021__13_x_4_"
-			(at 187.96 223.19 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/y2_b32021_026.pdf"
-			(at 187.96 323.19 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EMI Suppression Capacitors, 0.0022uF, 300Vrms AC, 4m(W) x 9m(H) x 13m(L)"
-			(at 196.85 127 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10195,24 +10195,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c0b2fd-f023-49bd-9bd7-94cd508f51c2")
-		(property "Sim.Device" "D"
-			(at 105.41 109.22 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 105.41 109.22 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D2"
 			(at 105.41 102.87 0)
 			(effects
@@ -10248,6 +10230,24 @@
 			)
 		)
 		(property "Description" "Diode"
+			(at 105.41 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 105.41 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 105.41 109.22 0)
 			(hide yes)
 			(effects
@@ -10692,6 +10692,53 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7046d375-aa7d-4906-88b4-bc487be8a84f")
+		(property "Reference" "C1"
+			(at 99.06 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32921C3104M189"
+			(at 99.06 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Hansmann:B32921C__13_x_6_"
+			(at 191.44 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf"
+			(at 291.44 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "EMI Suppression Capacitors, 0.1uF, 305Vrms AC, 6m(W) x 12m(H) x 13m(L)"
+			(at 95.25 59.69 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" ""
 			(at 491.44 50.8 0)
 			(hide yes)
@@ -10740,53 +10787,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "C1"
-			(at 99.06 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B32921C3104M189"
-			(at 99.06 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Hansmann:B32921C__13_x_6_"
-			(at 191.44 50.8 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf"
-			(at 291.44 50.8 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EMI Suppression Capacitors, 0.1uF, 305Vrms AC, 6m(W) x 12m(H) x 13m(L)"
-			(at 95.25 59.69 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11017,6 +11017,53 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "742edcf1-1241-434c-a79d-4eeac0f83b8a")
+		(property "Reference" "C24"
+			(at 112.522 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MKP1G031004D00JSC4"
+			(at 112.268 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MKP1G031004D00JSC4"
+			(at 20.65 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" ""
+			(at -79.35 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Film Capacitors .1uF 400 Volts 10%"
+			(at 116.84 104.14 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" "14"
 			(at -279.35 113.03 0)
 			(hide yes)
@@ -11065,53 +11112,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "C24"
-			(at 112.522 104.902 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MKP1G031004D00JSC4"
-			(at 112.268 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MKP1G031004D00JSC4"
-			(at 20.65 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" ""
-			(at -79.35 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Film Capacitors .1uF 400 Volts 10%"
-			(at 116.84 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11205,6 +11205,53 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7742a6d9-bcf7-4f65-9d9c-0e21e7585ebb")
+		(property "Reference" "J5"
+			(at 276.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "640445-2"
+			(at 274.574 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "6404452"
+			(at 285.75 39.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/640445-2.pdf"
+			(at 285.75 -60.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Configuration Features: PCB Mount Orientation Vertical | Number of Power Positions 2 | Number of Positions 2 | Number of Rows 1 | Contact Features: Contact Mating Area Plating Material Thickness 2.54 MICM | Contact Type Pin | Contact Layout Inline | Mating Post Length 10.16 MM | Mating Post Length .4 INCH | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Tin | Contact Mating Area Plating Material Thickness 100 MICIN | Contact Retention Within Housing Without | Contac"
+			(at 269.24 134.62 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" "11.049"
 			(at 285.75 -260.3 0)
 			(hide yes)
@@ -11253,53 +11300,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "J5"
-			(at 276.86 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "640445-2"
-			(at 274.574 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "6404452"
-			(at 285.75 39.7 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/640445-2.pdf"
-			(at 285.75 -60.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Configuration Features: PCB Mount Orientation Vertical | Number of Power Positions 2 | Number of Positions 2 | Number of Rows 1 | Contact Features: Contact Mating Area Plating Material Thickness 2.54 MICM | Contact Type Pin | Contact Layout Inline | Mating Post Length 10.16 MM | Mating Post Length .4 INCH | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Tin | Contact Mating Area Plating Material Thickness 100 MICIN | Contact Retention Within Housing Without | Contac"
-			(at 269.24 134.62 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -11597,6 +11597,53 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f0271fb-a1f7-43c2-b8bd-4db59c404a8c")
+		(property "Reference" "C2"
+			(at 157.48 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32921C3104M189"
+			(at 157.48 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Hansmann:B32921C__13_x_6_"
+			(at 249.86 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf"
+			(at 349.86 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "EMI Suppression Capacitors, 0.1uF, 305Vrms AC, 6m(W) x 12m(H) x 13m(L)"
+			(at 153.67 59.69 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" ""
 			(at 549.86 50.8 0)
 			(hide yes)
@@ -11645,53 +11692,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "C2"
-			(at 157.48 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B32921C3104M189"
-			(at 157.48 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Hansmann:B32921C__13_x_6_"
-			(at 249.86 50.8 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf"
-			(at 349.86 50.8 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EMI Suppression Capacitors, 0.1uF, 305Vrms AC, 6m(W) x 12m(H) x 13m(L)"
-			(at 153.67 59.69 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11856,6 +11856,51 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "824c7c88-5dad-4341-9053-5b54614bee53")
+		(property "Reference" "T1"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "750343466"
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hansmann:750343466"
+			(at 208.28 199.06 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/750343466.pdf"
+			(at 208.28 299.06 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Flyback Converters For For AC/DC Converters SMPS Transformer 3000V Isolation 100kHz Through Hole"
+			(at 188.468 94.488 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" "16.5"
 			(at 208.28 499.06 0)
 			(hide yes)
@@ -11904,51 +11949,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "T1"
-			(at 179.07 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "750343466"
-			(at 179.07 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hansmann:750343466"
-			(at 208.28 199.06 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/750343466.pdf"
-			(at 208.28 299.06 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Flyback Converters For For AC/DC Converters SMPS Transformer 3000V Isolation 100kHz Through Hole"
-			(at 188.468 94.488 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "4"
@@ -12082,6 +12082,51 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87d6a5fb-160a-4e73-96fc-723e02c11fa4")
+		(property "Reference" "F1"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "37204000431"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hansmann:37204000431"
+			(at 58.42 140.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=1a83e408-fdbe-48de-8389-c4f8ebb8232e&filename=littelfuse-fuse-372-datasheet"
+			(at 58.42 240.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "400 mA 250 V AC DC Fuse Board Mount (Cartridge Style Excluded) Through Hole Radial, Can, Vertical"
+			(at 44.45 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" "8"
 			(at 58.42 440.64 0)
 			(hide yes)
@@ -12130,51 +12175,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "F1"
-			(at 53.34 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "37204000431"
-			(at 53.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hansmann:37204000431"
-			(at 58.42 140.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=1a83e408-fdbe-48de-8389-c4f8ebb8232e&filename=littelfuse-fuse-372-datasheet"
-			(at 58.42 240.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "400 mA 250 V AC DC Fuse Board Mount (Cartridge Style Excluded) Through Hole Radial, Can, Vertical"
-			(at 44.45 44.45 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -12474,6 +12474,51 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90c00fc5-57e2-4fc3-917b-d3ccc19fd703")
+		(property "Reference" "RT1"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B57235S0509M000"
+			(at 52.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hansmann:B57235S0509M000"
+			(at 57.15 158.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/protection/current/ntc-limiter/data_sheet/50/db/icl_16/s235.pdf"
+			(at 57.15 258.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "EPCOS - B57235S0509M000 - Thermistor, ICL NTC, 5 ohm, -20% to +20%, Radial Leaded, B57235S0 Series"
+			(at 43.18 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" "14"
 			(at 57.15 458.42 0)
 			(hide yes)
@@ -12525,51 +12570,6 @@
 			)
 		)
 		(property "Field10" ""
-			(at 43.18 62.23 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reference" "RT1"
-			(at 52.07 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B57235S0509M000"
-			(at 52.07 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hansmann:B57235S0509M000"
-			(at 57.15 158.42 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/protection/current/ntc-limiter/data_sheet/50/db/icl_16/s235.pdf"
-			(at 57.15 258.42 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EPCOS - B57235S0509M000 - Thermistor, ICL NTC, 5 ohm, -20% to +20%, Radial Leaded, B57235S0 Series"
 			(at 43.18 62.23 0)
 			(hide yes)
 			(effects
@@ -12671,6 +12671,51 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9764d194-a4a7-4737-b1ad-f8ddd31ce0d2")
+		(property "Reference" "BR1"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DBLS209G_RD"
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP510P1005X293-4N"
+			(at 139.7 -40.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://static6.arrow.com/aropdfconversion/89a8da553ac24b8d9dd516b0f36b565751d47ad/35653849009201728dbls201g20series_h13.pdf"
+			(at 139.7 -140.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Taiwan Semiconductor DBLS209G RD, Bridge Rectifier, 2A 1400V, 4-Pin DBLS"
+			(at 120.65 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" "2.93"
 			(at 139.7 -340.31 0)
 			(hide yes)
@@ -12719,51 +12764,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "BR1"
-			(at 132.08 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DBLS209G_RD"
-			(at 132.08 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP510P1005X293-4N"
-			(at 139.7 -40.31 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://static6.arrow.com/aropdfconversion/89a8da553ac24b8d9dd516b0f36b565751d47ad/35653849009201728dbls201g20series_h13.pdf"
-			(at 139.7 -140.31 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Taiwan Semiconductor DBLS209G RD, Bridge Rectifier, 2A 1400V, 4-Pin DBLS"
-			(at 120.65 54.61 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13066,6 +13066,51 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2c4859b-0527-499a-98a0-84e1f9e17fdc")
+		(property "Reference" "IC1"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCP12510ASN65T1G"
+			(at 53.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P275X110-6N"
+			(at 66.04 218.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP12510-D.PDF"
+			(at 66.04 318.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Non-dissipative internal and adjustable Over Power Protection (OPP) circuits; Frequency Foldback down to 26 kHz and Skip-Cycle in light load conditions; Frequency jittering from full load to skip-cycle; Rich Set of Integrated Protections: Pre-short, OPP, OVP, OCP, SCP, OTP with AutoRecovery or Latched Options.; Improved IC Power Consumption; Internal Ramp Compensation; High Robustness and High ESD Capabilities"
+			(at 36.83 123.19 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" "1.1"
 			(at 66.04 518.11 0)
 			(hide yes)
@@ -13134,51 +13179,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "IC1"
-			(at 53.34 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP12510ASN65T1G"
-			(at 53.34 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P275X110-6N"
-			(at 66.04 218.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP12510-D.PDF"
-			(at 66.04 318.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Non-dissipative internal and adjustable Over Power Protection (OPP) circuits; Frequency Foldback down to 26 kHz and Skip-Cycle in light load conditions; Frequency jittering from full load to skip-cycle; Rich Set of Integrated Protections: Pre-short, OPP, OVP, OCP, SCP, OTP with AutoRecovery or Latched Options.; Improved IC Power Consumption; Internal Ramp Compensation; High Robustness and High ESD Capabilities"
-			(at 36.83 123.19 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -13354,6 +13354,53 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aea04d32-da23-462d-8036-96219bd36fdd")
+		(property "Reference" "C3"
+			(at 191.77 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32021A3222M189"
+			(at 191.77 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Hansmann:B32021__13_x_4_"
+			(at 284.15 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/y2_b32021_026.pdf"
+			(at 384.15 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "EMI Suppression Capacitors, 0.0022uF, 300Vrms AC, 4m(W) x 9m(H) x 13m(L)"
+			(at 187.96 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" ""
 			(at 584.15 69.85 0)
 			(hide yes)
@@ -13404,53 +13451,6 @@
 				(justify left top)
 			)
 		)
-		(property "Reference" "C3"
-			(at 191.77 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B32021A3222M189"
-			(at 191.77 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Hansmann:B32021__13_x_4_"
-			(at 284.15 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/y2_b32021_026.pdf"
-			(at 384.15 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EMI Suppression Capacitors, 0.0022uF, 300Vrms AC, 4m(W) x 9m(H) x 13m(L)"
-			(at 187.96 78.74 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3c7c1371-b563-4306-8014-12011a88de05")
 		)
@@ -13476,6 +13476,53 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b03f7423-6874-4d95-a1d9-3832e1b2bc19")
+		(property "Reference" "C4"
+			(at 215.9 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32021A3222M189"
+			(at 215.9 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Hansmann:B32021__13_x_4_"
+			(at 308.28 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/y2_b32021_026.pdf"
+			(at 408.28 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "EMI Suppression Capacitors, 0.0022uF, 300Vrms AC, 4m(W) x 9m(H) x 13m(L)"
+			(at 212.09 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" ""
 			(at 608.28 69.85 0)
 			(hide yes)
@@ -13524,53 +13571,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "C4"
-			(at 215.9 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B32021A3222M189"
-			(at 215.9 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Hansmann:B32021__13_x_4_"
-			(at 308.28 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/y2_b32021_026.pdf"
-			(at 408.28 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EMI Suppression Capacitors, 0.0022uF, 300Vrms AC, 4m(W) x 9m(H) x 13m(L)"
-			(at 212.09 78.74 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13737,6 +13737,51 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baeb3f5d-9833-4ce0-98f2-36d2c5eeb1a0")
+		(property "Reference" "C17"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B32021A3222M189"
+			(at 171.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hansmann:B32021__13_x_4_"
+			(at 165.1 223.19 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/y2_b32021_026.pdf"
+			(at 165.1 323.19 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "EMI Suppression Capacitors, 0.0022uF, 300Vrms AC, 4m(W) x 9m(H) x 13m(L)"
+			(at 173.99 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" ""
 			(at 165.1 523.19 0)
 			(hide yes)
@@ -13787,51 +13832,6 @@
 				(justify left top)
 			)
 		)
-		(property "Reference" "C17"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B32021A3222M189"
-			(at 171.45 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hansmann:B32021__13_x_4_"
-			(at 165.1 223.19 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/y2_b32021_026.pdf"
-			(at 165.1 323.19 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EMI Suppression Capacitors, 0.0022uF, 300Vrms AC, 4m(W) x 9m(H) x 13m(L)"
-			(at 173.99 127 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9d8f0484-140e-4f1d-9056-83f2f9c38c97")
 		)
@@ -13858,33 +13858,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beb00121-77f7-40da-aca3-9ac2d99ed5e0")
-		(property "Sim.Device" "NPN"
-			(at 49.53 97.79 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 49.53 97.79 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 49.53 97.79 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Q2"
 			(at 44.45 96.5199 0)
 			(effects
@@ -13922,6 +13895,33 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 49.53 97.79 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 49.53 97.79 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 49.53 97.79 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 49.53 97.79 0)
 			(hide yes)
 			(effects
@@ -14298,24 +14298,6 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2ac47d1-9bcf-4c30-8eb1-823975604efb")
-		(property "Sim.Device" "D"
-			(at 227.33 118.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 227.33 118.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "D8"
 			(at 227.33 111.76 0)
 			(effects
@@ -14351,6 +14333,24 @@
 			)
 		)
 		(property "Description" "Diode"
+			(at 227.33 118.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 227.33 118.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 227.33 118.11 0)
 			(hide yes)
 			(effects
@@ -14931,6 +14931,53 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebb98672-403c-494f-8be1-376005b10834")
+		(property "Reference" "C6"
+			(at 201.93 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32921C3104M189"
+			(at 201.93 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Hansmann:B32921C__13_x_6_"
+			(at 294.31 55.88 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf"
+			(at 394.31 55.88 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "EMI Suppression Capacitors, 0.1uF, 305Vrms AC, 6m(W) x 12m(H) x 13m(L)"
+			(at 198.12 64.77 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Height" ""
 			(at 594.31 55.88 0)
 			(hide yes)
@@ -14979,53 +15026,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Reference" "C6"
-			(at 201.93 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B32921C3104M189"
-			(at 201.93 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Hansmann:B32921C__13_x_6_"
-			(at 294.31 55.88 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf"
-			(at 394.31 55.88 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EMI Suppression Capacitors, 0.1uF, 305Vrms AC, 6m(W) x 12m(H) x 13m(L)"
-			(at 198.12 64.77 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

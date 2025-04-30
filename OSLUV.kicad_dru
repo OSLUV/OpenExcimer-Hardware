@@ -5,6 +5,7 @@
     (condition "A.hasNetclass('HV_Drain')")
     (constraint creepage (min 2.4mm)))
 
-(rule HV_creepage
-	(condition "A.hasNetclass('HV_Lamp')")   
-	(constraint creepage (min 20mm)))
+(rule HV_isolated_spacing
+	(condition "(A.hasNetclass('HV_Lamp') && !B.hasNetclass('HV_Lamp'))")
+	(constraint creepage (min 20mm))
+	(constraint clearance (min 8mm)))

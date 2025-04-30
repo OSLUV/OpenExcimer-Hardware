@@ -1,4 +1,4 @@
-25982313926257837
+25984059946325902
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60409,6 +60409,13 @@ Mounting_M3_NPTH_Vias
 0
 10
 1
+Hansmann
+Prog_St
+
+
+0
+5
+5
 Hansmann
 QFP80P900X900X160-32N
 LQFP32-1

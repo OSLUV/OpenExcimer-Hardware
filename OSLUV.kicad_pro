@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -503,6 +503,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.2,
         "wire_width": 6
@@ -511,37 +512,34 @@
         "clearance": 2.4,
         "name": "HV_Drain",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       },
       {
         "clearance": 1.4,
         "name": "HV_Drain_div",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       },
       {
         "clearance": 0.7,
         "name": "HV_Drain_div2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "clearance": 12.0,
-        "name": "HV_Lamp",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       },
       {
         "clearance": 2.5,
         "name": "MAINS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
+        "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3
       },
@@ -549,9 +547,10 @@
         "clearance": 4.1,
         "name": "MAINS_preFuse",
         "pcb_color": "rgb(183, 0, 0)",
-        "priority": 6,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
+        "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3
       },
@@ -559,15 +558,16 @@
         "clearance": 1.2,
         "name": "Off_HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.2
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": {
@@ -597,6 +597,9 @@
       ],
       "/excimerDriver/lampDriver/HV_Drain": [
         "HV_Drain"
+      ],
+      "/excimerDriver/lampDriver/HV_Drain_div2": [
+        "HV_Drain_div2"
       ],
       "/excimerDriver/lampDriver/Lamp_HV": [
         "HV_Lamp"
@@ -645,6 +648,9 @@
       ],
       "Net-(R10-Pad1)": [
         "Off_HV"
+      ],
+      "Net-(R54-Pad1)": [
+        "HV_Drain_div"
       ],
       "Net-(R7-Pad2)": [
         "Off_HV"
@@ -816,5 +822,11 @@
       "LampIntensity"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "time_domain_parameters": {
+    "delay_profiles_user_defined": [],
+    "meta": {
+      "version": 0
+    }
+  }
 }
