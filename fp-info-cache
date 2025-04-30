@@ -1,4 +1,4 @@
-25977077020970230
+25982313926257837
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60347,6 +60347,13 @@ Thermistor
 2
 2
 Hansmann
+B66208B1110T1
+B66208B1110T1-3
+Transformer
+0
+10
+10
+Hansmann
 B66359B1013T001
 B66359B1013T001-2
 Inductor
@@ -60457,6 +60464,13 @@ TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/
 D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
 0
 12
+8
+Hansmann
+TO-263-7_TabPin2_HV
+TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
+D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
+0
+10
 8
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
@@ -71637,6 +71651,13 @@ net tie
 0
 4
 4
+OSLUV
+EF25_outerPinsOnly
+B66208B1110T1-3
+Transformer
+0
+5
+5
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
