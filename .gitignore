@@ -1,4 +1,3 @@
-*.bak
-*cache
-OSLUV-backups/
-*lck
+*backups/
+*cache*
+*bak
