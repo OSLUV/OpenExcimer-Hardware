@@ -2,10 +2,12 @@
 
 # Clearance for HV Drain nets to anything else
 (rule Drain
-    (condition "A.hasNetclass('HV_Drain')")
+    (condition "A.hasNetclass('HV_Drain') && !B.hasNetclass('HV_Drain')")
     (constraint creepage (min 2.4mm)))
 
-(rule HV_isolated_spacing
-	(condition "(A.hasNetclass('HV_Lamp') && !B.hasNetclass('HV_Lamp'))")
+(rule HV_clearance
+	(condition "(A.hasNetclass('HV_Lamp') && !B.hasNetclass('HV_Lamp') && !( B.Pin_Type == '*unconnected' || B.Pin_Type == 'free'))")
 	(constraint creepage (min 20mm))
 	(constraint clearance (min 8mm)))
+
+
