@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -597,6 +597,9 @@
       ],
       "/excimerDriver/lampDriver/HV_Drain": [
         "HV_Drain"
+      ],
+      "/excimerDriver/lampDriver/HV_Drain_div": [
+        "HV_Drain_div"
       ],
       "/excimerDriver/lampDriver/HV_Drain_div2": [
         "HV_Drain_div2"
