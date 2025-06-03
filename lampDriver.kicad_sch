@@ -1409,6 +1409,329 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BAS40-04"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0.635 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAS40-04"
+				(at -6.35 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at -6.35 7.62 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85701/bas40v.pdf"
+				(at -3.048 2.54 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Schottky, Diode"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAS40-04_0_1"
+				(polyline
+					(pts
+						(xy -4.445 3.81) (xy -4.445 1.27) (xy -2.54 2.54) (xy -4.445 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.27) (xy -3.175 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy -1.905 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 1.905 1.27) (xy 3.81 2.54) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 3.175 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 4.445 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 3.81) (xy 4.445 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAS40-04_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:BAT54J"
 			(pin_numbers
 				(hide yes)
@@ -3270,12 +3593,6 @@
 		(uuid "f80c22a9-a75d-487c-9d2a-0650c69f7668")
 	)
 	(junction
-		(at 76.2 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00aeeadd-d995-48d6-b06b-921a045f2c90")
-	)
-	(junction
 		(at 67.31 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3390,6 +3707,12 @@
 		(uuid "71cfb5ad-7ba4-40e1-8077-0f6de685c1e7")
 	)
 	(junction
+		(at 125.73 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "755292ae-9f91-4489-ace7-dadeea4d7533")
+	)
+	(junction
 		(at 133.35 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3450,12 +3773,6 @@
 		(uuid "a5820680-2b7f-466e-9b59-f0f9ea58eb44")
 	)
 	(junction
-		(at 86.36 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa67ff93-9d05-4f1e-8ecf-350d3326f787")
-	)
-	(junction
 		(at 91.44 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3478,6 +3795,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b36af6cf-4d4e-4425-824b-f1c1011c4634")
+	)
+	(junction
+		(at 91.44 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9791727-ed3c-4e22-8253-e9e056cd9a21")
 	)
 	(junction
 		(at 58.42 88.9)
@@ -3599,6 +3922,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 107.95) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0455aad1-0cc9-4453-842b-6c7aab594133")
+	)
+	(wire
+		(pts
 			(xy 215.9 100.33) (xy 219.71 100.33)
 		)
 		(stroke
@@ -3639,16 +3972,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 90.17) (xy 111.76 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1068bdf0-8c2d-4792-8962-7ecc99e89f04")
-	)
-	(wire
-		(pts
 			(xy 44.45 133.35) (xy 29.21 133.35)
 		)
 		(stroke
@@ -3666,16 +3989,6 @@
 			(type default)
 		)
 		(uuid "148a9977-3c26-4966-b64a-a15c758e7f5c")
-	)
-	(wire
-		(pts
-			(xy 29.21 107.95) (xy 86.36 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "152f20b2-eda2-4de3-a7c4-be5666d5db21")
 	)
 	(wire
 		(pts
@@ -3829,6 +4142,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 90.17) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb98c33-9223-4bd2-9294-129c8ee40657")
+	)
+	(wire
+		(pts
 			(xy 190.5 30.48) (xy 271.78 30.48)
 		)
 		(stroke
@@ -3859,7 +4182,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 97.79) (xy 129.54 97.79)
+			(xy 114.3 97.79) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4116,16 +4439,6 @@
 			(type default)
 		)
 		(uuid "60600f84-ddbc-4ec1-8381-b88203118763")
-	)
-	(wire
-		(pts
-			(xy 76.2 96.52) (xy 111.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61215ffb-80e0-4710-b01a-33d0aa42cdd1")
 	)
 	(wire
 		(pts
@@ -4589,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 107.95) (xy 96.52 107.95)
+			(xy 29.21 107.95) (xy 91.44 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4909,6 +5222,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 97.79) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d2ee37-3a00-4cdf-b794-5ecb5d052e6d")
+	)
+	(wire
+		(pts
 			(xy 67.31 38.1) (xy 71.12 38.1)
 		)
 		(stroke
@@ -4966,16 +5289,6 @@
 			(type default)
 		)
 		(uuid "fb03a9a0-e2e1-4f88-a04c-0c9c63afe658")
-	)
-	(wire
-		(pts
-			(xy 111.76 90.17) (xy 111.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb6423dd-54a6-418c-be9d-b959078eb84a")
 	)
 	(label "HV_Drain_div3"
 		(at 148.59 71.12 180)
@@ -5252,7 +5565,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 7d75cc36-3154-4306-9e6d-d15e8603475f)
+			(uuid 72854505-2790-45a0-8121-c14fbb0ea059)
 		)
 	)
 	(netclass_flag ""
@@ -5373,6 +5686,71 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "011082aa-2c7b-48b2-8c85-032a134f3cb1")
+		(property "Reference" "#PWR089"
+			(at 86.36 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 115.57 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 115.57 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 115.57 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd6c987c-391e-49da-b5cf-36a846ef7b88")
+		)
+		(instances
+			(project "OSLUV"
+				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
+					(reference "#PWR089")
+					(unit 1)
 				)
 			)
 		)
@@ -6626,7 +7004,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k 0603"
+		(property "Value" "10k 0603"
 			(at 60.96 93.9799 0)
 			(effects
 				(font
@@ -8164,76 +8542,6 @@
 			(project "OSLUV"
 				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54J")
-		(at 86.36 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b8cd595-9e3b-4a7f-869b-765305c24ddd")
-		(property "Reference" "D15"
-			(at 88.9 102.5524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54J"
-			(at 88.9 105.0924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 81.915 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
-			(at 86.36 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "30V 200mA Schottky diode, SOD-323F"
-			(at 86.36 104.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c6bd554e-5efa-4fca-9f2e-b86a64350273")
-		)
-		(pin "1"
-			(uuid "a0b42726-3659-4010-a3f8-90dcd1fafc6e")
-		)
-		(instances
-			(project "OSLUV"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -9931,6 +10239,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAS40-04")
+		(at 88.9 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a658b64e-ed43-499d-a821-d28016d77112")
+		(property "Reference" "D15"
+			(at 83.82 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS40-04"
+			(at 97.282 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 81.28 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85701/bas40v.pdf"
+			(at 86.36 110.998 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
+			(at 88.9 107.95 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "45eb12c5-1a1d-4468-84c2-e52052207751")
+		)
+		(pin "1"
+			(uuid "2a146c11-ac5c-4f71-9cba-de73e168f83e")
+		)
+		(pin "2"
+			(uuid "f06cbff4-1997-4876-81aa-3ad03ccae33c")
+		)
+		(instances
+			(project "OSLUV"
+				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 105.41 86.36 90)
 		(unit 1)
@@ -11306,7 +11687,7 @@
 				)
 			)
 		)
-		(property "Value" "33R 0805"
+		(property "Value" "150R 0805"
 			(at 86.614 93.218 90)
 			(effects
 				(font
