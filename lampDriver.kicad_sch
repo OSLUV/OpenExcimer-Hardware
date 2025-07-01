@@ -2599,13 +2599,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OSLUV:ETD29"
+		(symbol "OSLUV:ETD29_V2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
-				(at 12.7 7.62 0)
+				(at 5.715 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2614,7 +2614,7 @@
 				)
 			)
 			(property "Value" "ETD29"
-				(at 10.16 5.08 0)
+				(at 3.175 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2701,7 +2701,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "ETD29_0_1"
+			(symbol "ETD29_V2_0_1"
 				(polyline
 					(pts
 						(xy 5.08 -12.7) (xy 7.62 -12.7) (xy 7.62 -10.16)
@@ -2726,8 +2726,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 14.605 -6.35) (xy 14.605 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "ETD29_1_1"
+			(symbol "ETD29_V2_1_1"
 				(rectangle
 					(start 6.985 -5.08)
 					(end 8.255 -10.16)
@@ -2741,7 +2753,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.795 -5.08) (xy 10.795 -10.16)
+						(xy 11.43 1.27) (xy 11.43 -16.51)
 					)
 					(stroke
 						(width 0)
@@ -2752,8 +2764,19 @@
 					)
 				)
 				(rectangle
-					(start 13.335 -5.08)
-					(end 14.605 -10.16)
+					(start 13.97 1.27)
+					(end 15.24 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 13.97 -11.43)
+					(end 15.24 -16.51)
 					(stroke
 						(width 0)
 						(type solid)
@@ -2764,7 +2787,19 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -12.7) (xy 13.97 -10.16) (xy 13.97 -2.54)
+						(xy 14.605 -6.35) (xy 14.605 -3.81) (xy 14.605 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -19.05) (xy 14.605 -16.51) (xy 14.605 -8.89)
 					)
 					(stroke
 						(width 0)
@@ -2810,8 +2845,8 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 3.175 -19.05 0)
+				(pin passive line
+					(at 14.605 -7.62 0)
 					(length 5.08)
 					(name "12"
 						(effects
@@ -2829,7 +2864,7 @@
 					)
 				)
 				(pin passive line
-					(at 19.05 -2.54 180)
+					(at 19.685 3.81 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -2847,16 +2882,16 @@
 					)
 				)
 				(pin passive line
-					(at 19.05 -12.7 180)
+					(at 19.685 -19.05 180)
 					(length 5.08)
-					(name "10"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3620,6 +3655,12 @@
 		(uuid "9e3fefba-049d-4211-a36a-431fe1d22cf1")
 	)
 	(junction
+		(at 190.5 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a158ce28-e2e2-4264-9988-38ec6fc3f2f2")
+	)
+	(junction
 		(at 130.81 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3678,12 +3719,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be459ab2-f779-4a31-8dc6-96382e0d6aa2")
-	)
-	(junction
-		(at 190.5 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd565b73-5fe8-4713-a303-7f939fac272e")
 	)
 	(junction
 		(at 242.57 86.36)
@@ -3794,6 +3829,16 @@
 			(type default)
 		)
 		(uuid "05fddfb2-be9e-45be-a5ff-17e39555003e")
+	)
+	(wire
+		(pts
+			(xy 182.88 31.75) (xy 185.42 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e3d632-8878-4dd0-9f7f-e0f29865d01f")
 	)
 	(wire
 		(pts
@@ -4027,6 +4072,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 54.61) (xy 182.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317e0710-7304-4f45-82cd-8014fc647921")
+	)
+	(wire
+		(pts
 			(xy 109.22 128.27) (xy 109.22 133.35)
 		)
 		(stroke
@@ -4137,7 +4192,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 38.1) (xy 168.91 38.1)
+			(xy 82.55 38.1) (xy 165.735 38.1)
 		)
 		(stroke
 			(width 0.254)
@@ -4387,7 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 62.23) (xy 190.5 62.23)
+			(xy 182.88 62.23) (xy 190.5 62.23)
 		)
 		(stroke
 			(width 0.254)
@@ -4587,7 +4642,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 48.26) (xy 168.91 48.26)
+			(xy 147.32 48.26) (xy 165.735 48.26)
 		)
 		(stroke
 			(width 0.254)
@@ -4667,16 +4722,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 185.42 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7825192-6e2e-4023-9fc0-f63367d5866d")
-	)
-	(wire
-		(pts
 			(xy 76.2 67.31) (xy 76.2 76.2)
 		)
 		(stroke
@@ -4684,6 +4729,16 @@
 			(type default)
 		)
 		(uuid "a792212c-5808-4988-993e-b12c2da420cc")
+	)
+	(wire
+		(pts
+			(xy 182.88 43.18) (xy 184.15 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfb0b49-b033-4ad0-a84f-71d464390cf6")
 	)
 	(wire
 		(pts
@@ -5007,6 +5062,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 22.86) (xy 185.42 31.75)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "debf62be-70ff-4f1d-a850-4ec29c9dae7d")
+	)
+	(wire
+		(pts
 			(xy 121.92 133.35) (xy 170.18 133.35)
 		)
 		(stroke
@@ -5087,16 +5152,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 22.86) (xy 185.42 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaa1acb4-4acb-44cf-a536-06b63ed3ec0a")
-	)
-	(wire
-		(pts
 			(xy 123.19 105.41) (xy 127 105.41)
 		)
 		(stroke
@@ -5104,6 +5159,16 @@
 			(type default)
 		)
 		(uuid "eb499af7-9353-4324-ba30-0016ae9b1875")
+	)
+	(wire
+		(pts
+			(xy 190.5 46.99) (xy 190.5 54.61)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "eb9f0414-70d9-4456-bb1a-e12d7eaab5a7")
 	)
 	(wire
 		(pts
@@ -5175,15 +5240,15 @@
 		)
 		(uuid "f8666551-d674-49c7-b7e3-50b1c8f2aed2")
 	)
-	(wire
-		(pts
-			(xy 190.5 46.99) (xy 190.5 54.61)
+	(label "HV_Lamp{slash}2"
+		(at 182.88 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb03a9a0-e2e1-4f88-a04c-0c9c63afe658")
+		(uuid "0c5391c1-25dc-4d6c-826d-45a70c70e7f5")
 	)
 	(label "HV_Drain_div3"
 		(at 142.24 71.12 180)
@@ -5449,7 +5514,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 4603b7a0-ead6-4b43-8202-df33caaf9548)
+			(uuid cdf6e1c9-f45b-4a41-ad2c-4ecc67afb216)
 		)
 	)
 	(netclass_flag ""
@@ -5504,6 +5569,36 @@
 		)
 		(property "Component Class" ""
 			(at -54.61 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 184.15 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b07d3f9-0be3-49fc-af6a-5e9cf863ff3b")
+		(property "Net Class" "HV_Lamp/2"
+			(at 178.816 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -104.14 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,6 +10407,135 @@
 		)
 	)
 	(symbol
+		(lib_id "OSLUV:ETD29_V2")
+		(at 163.195 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92b7fd98-681a-434f-a6a5-4dd60b7f2c2b")
+		(property "Reference" "L1"
+			(at 175.5775 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ETD29"
+			(at 175.5775 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OSLUV:ETD29_OSLUV_V2"
+			(at 182.245 130.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/etd_29_16_10.pdf"
+			(at 182.245 230.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Ferrite Accessories, E Cores Accessories(EFD/ER/ETD), Coil former (ETD 29/16/10)"
+			(at 172.085 22.225 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "25"
+			(at 182.245 430.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "871-B66359B1013T001"
+			(at 182.245 530.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B66359B1013T001?qs=w5o0Loj0u7PJX8yNctw%252B%252Bw%3D%3D"
+			(at 182.245 630.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 182.245 730.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B66359B1013T001"
+			(at 182.245 830.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "dc47c2ed-d3ea-43ae-8eab-4ff8954b8fe3")
+		)
+		(pin "12"
+			(uuid "cf4375a1-7103-4caf-902b-556d8389392e")
+		)
+		(pin "2"
+			(uuid "ecc7c7b7-0855-41be-9ba4-04bb86e9c942")
+		)
+		(pin "8"
+			(uuid "d2d2aea2-65dd-4f2c-9f23-74a96fb2c7fb")
+		)
+		(pin "5"
+			(uuid "7058ee7e-d3ad-47db-b329-d5b3565ef6de")
+		)
+		(instances
+			(project ""
+				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 226.06 107.95 0)
 		(unit 1)
@@ -10916,135 +11140,6 @@
 			(project "OSLUV"
 				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
 					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OSLUV:ETD29")
-		(at 166.37 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b26005bf-2bf2-488b-8312-1764c99bd759")
-		(property "Reference" "L103"
-			(at 176.2125 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ETD29"
-			(at 176.2125 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OSLUV:ETD29_OSLUV"
-			(at 185.42 130.48 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/etd_29_16_10.pdf"
-			(at 185.42 230.48 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Ferrite Accessories, E Cores Accessories(EFD/ER/ETD), Coil former (ETD 29/16/10)"
-			(at 175.26 22.225 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "25"
-			(at 185.42 430.48 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "871-B66359B1013T001"
-			(at 185.42 530.48 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B66359B1013T001?qs=w5o0Loj0u7PJX8yNctw%252B%252Bw%3D%3D"
-			(at 185.42 630.48 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 185.42 730.48 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B66359B1013T001"
-			(at 185.42 830.48 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "10"
-			(uuid "db9d011d-5473-4cb1-902f-b855e8efcf57")
-		)
-		(pin "5"
-			(uuid "dd2ad474-2ba5-4117-914b-4eaf1345bba8")
-		)
-		(pin "2"
-			(uuid "85ae2e3f-3302-4ad5-a877-02c54c855c52")
-		)
-		(pin "8"
-			(uuid "b1ff7844-6801-41c7-a2b6-4064f114e2c5")
-		)
-		(pin "12"
-			(uuid "bca45cbe-5880-4fa0-b9a0-d61e00789675")
-		)
-		(instances
-			(project ""
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
-					(reference "L103")
 					(unit 1)
 				)
 			)
