@@ -1,0 +1,8 @@
+OpenExcimer Precompliance Notes
+
+1)The high voltage ballast (driver) and 24V ac/dc offline converter combination were placed in a linear arrangement. 
+2)The ballst and ad/dc supply were connected with a short cable. 
+3)No other filtering, mitigation or other steps were taken (as would be common in a commercial product).
+4)The intent of this test is to show that the OpenExcimer passes the more stringest FCC Part 15 Subpart B Class B standards - as is without modification.
+5)Final integration into a final product and subsequent certification of the same are outside the scope of the Open Excimer project.
+6)It should be noted that the conducted mode compliance is highly sensitive to physical placement and the primary EMI agressors are fields originating from the high voltage transformer and switching section - care should be taken to seperate (by distance) and shield other parts of your luminiare design from this - in particular - the design can experience unintended interference if the ac/dc converter and high voltage ballast (driver) are placed side by side or in a parallel configuration which allows more of the fields to couple. 
