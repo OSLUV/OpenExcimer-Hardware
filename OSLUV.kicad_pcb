@@ -13674,6 +13674,17 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "${KICAD9_3DMODEL_DIR}/643495-2.stp"
+			(offset
+				(xyz 8 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Hansmann_Dioden:D_SOD-323F"
 		(layer "F.Cu")

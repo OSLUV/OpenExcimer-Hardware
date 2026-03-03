@@ -12499,7 +12499,7 @@
 				)
 			)
 		)
-		(property "Value" "100R 0603"
+		(property "Value" "10R 0603"
 			(at 43.942 147.574 90)
 			(effects
 				(font
@@ -13837,7 +13837,7 @@
 				)
 			)
 		)
-		(property "Value" "100R 0603"
+		(property "Value" "10R 0603"
 			(at 43.7442 150.114 90)
 			(effects
 				(font

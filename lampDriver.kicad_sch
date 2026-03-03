@@ -6149,7 +6149,7 @@
 			(fill
 				(type none)
 			)
-			(uuid e18352c9-4006-4134-af71-1dd3c8f93df1)
+			(uuid 39cb7b26-b6c7-434f-9494-2a5811c1de4d)
 		)
 	)
 	(netclass_flag ""
@@ -11186,7 +11186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p 0603"
+		(property "Value" "100n 0603"
 			(at 27.686 72.136 0)
 			(effects
 				(font
