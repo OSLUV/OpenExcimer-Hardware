@@ -1,4 +1,5 @@
 *backups/
 *cache*
 *bak
-*.lck
+*.lck*
+*.DS_Store*
