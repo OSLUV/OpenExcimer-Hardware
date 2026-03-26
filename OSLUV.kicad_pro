@@ -76,26 +76,6 @@
           ""
         ],
         [
-          "clearance|120000000|66760000|bc37acf6-882e-42b5-828d-8ae1a9a08c63|d369d143-154f-44fb-a759-63167dd3429d",
-          ""
-        ],
-        [
-          "clearance|120000000|69505000|d369d143-154f-44fb-a759-63167dd3429d|6001486a-dfd7-46da-9dc3-b4399f77dc90",
-          ""
-        ],
-        [
-          "clearance|63210000|70500000|a67e5b98-6608-42a4-9cb2-16efcbc1316f|6d278ad1-b38a-433f-af92-145eef620a4d",
-          ""
-        ],
-        [
-          "clearance|65000000|61250000|2f457519-02db-483c-8e1f-e818e513e054|155d6eba-096a-416b-95a8-facbe7759e14",
-          ""
-        ],
-        [
-          "unconnected_items|118125000|122200000|b4fac440-841b-44c9-8e4f-13838adcdb86|c33fcf3f-7f23-452b-83b3-0bced3a0e960",
-          ""
-        ],
-        [
           "unconnected_items|132353300|115250000|62a70a4b-adbf-4938-9612-4608f2762a9a|329aa5e9-3266-4487-a744-e1c9ca3652b3",
           ""
         ]
@@ -593,6 +573,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/excimerDriver/EARTH": [
+        "MAINS_preFuse"
+      ],
       "/excimerDriver/lampDriver/HV_Drain": [
         "HV_Drain"
       ],
@@ -664,10 +647,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Fertigungsdaten/",
-      "pos_files": "",
+      "plot": "Fertigungsdaten/",
+      "pos_files": "Fertigungsdaten/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "OSLUV_simplified.step",
       "svg": "",
       "vrml": ""
     },
@@ -1090,10 +1073,6 @@
     [
       "c6e900e0-9399-44f0-8089-9dd7b8ffe54c",
       "Root"
-    ],
-    [
-      "a8d7965e-5268-4c95-93ca-40f8dbbf325c",
-      "offlineConverter"
     ],
     [
       "9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9",
