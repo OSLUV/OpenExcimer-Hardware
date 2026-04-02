@@ -1,0 +1,395 @@
+(footprint "TC33X2503E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TC33X-2_1")
+	(tags "Variable Resistor")
+	(property "Reference" "REF**"
+		(at 0 0.168 0)
+		(layer "F.SilkS")
+		(uuid "957fa24e-a5ea-44b6-b378-867850668ddc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TC33X-2-103E"
+		(at 0 0.168 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8a642001-c210-49e7-b8df-47039a96ac1c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/pdfs/TC33.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "333e7872-aa5c-4d4a-8d23-ca039e0fd15b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Cermet 3mm SMT trimmer,0.1W 10k Bourns TC33 Series SMD Cermet Trimmer Resistor with Solder Pad Terminations, 10k?? ??25% 1/10W ??250ppm/??C Top Adjust"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa89ff73-5935-4b85-8ef4-38a85642241d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77a73f00-16ad-4bfb-bd3b-852ec327e4c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "652-TC33X-2-103E"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d12efd2-ec85-47e1-9a0c-38712bdcf515")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/TC33X-2-103E?qs=fmZCN1JtwVHu68GrI%2FXOWQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "966f4309-0706-4531-b609-7e932e9b499c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Bourns"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b108a7f6-1e92-4087-8a73-745dbcdf5bd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TC33X-2-103E"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4c99c38-b1a1-47c7-abd9-3506d927e388")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "323a44a7-869d-402a-8530-1d6dc7b5c93d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "154b132b-8090-4c16-a47c-15a78f53bd00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field10" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48343a46-a3a9-4da9-8bb8-6f466912706d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "L (mH)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c91e31cb-0edd-48fa-b32a-24d50eaa4522")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Material" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a1cb26d-0dcd-463e-9e8c-c6e01a9b6af2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RDC max. (mΩ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a55758ec-ec45-4a4f-af4b-49abac893500")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VT (V (AC))" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71d3341d-1e1e-4f05-970d-24cf07cbe12d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 -1.9)
+		(end -1.8 1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4eb0f76-0a60-44a0-9dfd-005fe6c27d2b")
+	)
+	(fp_line
+		(start -1.052 2.625)
+		(end -1.052 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f62d019f-26c1-4ddf-a1c0-d8899614dae8")
+	)
+	(fp_line
+		(start -1.03 2.625)
+		(end -1.03 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5244e6df-e8db-4322-b58b-db718d6ad488")
+	)
+	(fp_line
+		(start 1.8 1.9)
+		(end 1.8 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80fdd30a-57b3-4faf-8c89-4827a58fb6f6")
+	)
+	(fp_arc
+		(start -1.052 2.625)
+		(mid -1.041 2.614)
+		(end -1.03 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "699f258d-8d13-4404-9ea0-efd6791dcab7")
+	)
+	(fp_arc
+		(start -1.03 2.625)
+		(mid -1.041 2.636)
+		(end -1.052 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e784cd3f-2230-45d2-9e65-bb98dfcd362b")
+	)
+	(fp_line
+		(start -2.8 -3.3)
+		(end 2.8 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00b232f0-98a7-4a8b-be46-6eb665d5e965")
+	)
+	(fp_line
+		(start -2.8 3.636)
+		(end -2.8 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22b5aed5-3be8-4d83-9e39-2f8c0cfd7ad6")
+	)
+	(fp_line
+		(start 2.8 -3.3)
+		(end 2.8 3.636)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82e0e9ce-2947-425f-9775-3539df5d263d")
+	)
+	(fp_line
+		(start 2.8 3.636)
+		(end -2.8 3.636)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7ac39f4-b577-462d-b988-283c0efee912")
+	)
+	(fp_line
+		(start -1.8 -1.9)
+		(end 1.8 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e338bb1-4a78-4f7b-b2bd-3324df753a52")
+	)
+	(fp_line
+		(start -1.8 1.9)
+		(end -1.8 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07321f1f-0a67-41e9-ba67-aeaac72b3019")
+	)
+	(fp_line
+		(start 1.8 -1.9)
+		(end 1.8 1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a6be752-1221-4c40-9861-9addda22694f")
+	)
+	(fp_line
+		(start 1.8 1.9)
+		(end -1.8 1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae96c7c0-4781-4a73-b992-c38428db6258")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.168 0)
+		(layer "F.Fab")
+		(uuid "c6898ced-1e7f-46c7-a4ba-23192486dcef")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 1.7 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "34450676-1a44-4862-b3b5-c699fa2119c7")
+	)
+	(pad "2" smd rect
+		(at 0 -1.55 90)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "396755d8-d827-4a57-b7ad-e3e5e52414bf")
+	)
+	(pad "3" smd rect
+		(at 1 1.7 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b4b4bb60-6487-4347-b6c4-200f47618849")
+	)
+	(embedded_fonts no)
+	(model "TC33X-2-103E.stp"
+		(offset
+			(xyz 0 0 0.279999997)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

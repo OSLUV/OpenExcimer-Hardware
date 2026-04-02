@@ -1,0 +1,499 @@
+(footprint "C_Wurth_WCAP-CSSA-2211"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MLCCS Interference Suppression Safety Capacitors, body 5.7x2.8x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSSA#/articles/WCAP-CSSA-2211")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0.95 2.15 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a1e0adc5-091c-4280-9962-dfc954534fb4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2211_8853522130151"
+		(at -0.4 1.8 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b3244bac-e5dd-49a9-91d8-4b8c139974e3")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/catalog/datasheet/8853522130151.pdf?ki"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e64cd14-2014-430b-a382-bc5c0fde955a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MLCCS Interference Suppression Safety Capacitors"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "940f4061-ec76-4aa4-9e6b-33be12cdfdd7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Wurth Elektronik"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "559ca5e9-abc0-476f-ba1d-ce7f23248edf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer URL" "https://www.we-online.com"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f08db30d-1175-40ee-a37d-bebe52c679da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Published Date" "20250314"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13fcf6d0-89a3-4692-9045-2603e0cff532")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Match Code" "WCAP-CSSA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df554e7b-e971-48c1-8e83-5584eec22480")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "8853522130151"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2cce9e8-bd7f-499e-8005-07b8f48fc167")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" "2211"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76a02bfd-90ea-42a0-8fcb-07027c1386d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mounting Technology" "SMT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29b066b6-c83d-445f-8b1a-5dcb05620ca1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "C" "2.2 nF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4786336c-2eeb-49ce-a6d5-7694e255b0a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol. C" "±10%"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c172bfd0-2892-4f3c-a625-f513d10f2cae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VR (V (AC))" "250"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae5370cf-f9d6-40b2-82e4-e8372712619c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Operating Temperature" "-55 °C up to +125 °C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47eed5ba-1413-4b8a-bea3-8c2df9d69ed0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Safety Class" "X1 / Y2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a074babc-1aec-47d2-bf9f-41b4a2c09549")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIMP (V (DC))" "5000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4c8995c-1c25-43a2-89d5-816c514f3456")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DF (%)" "2.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30f7a2b1-f7f9-4207-8c2f-639a5649e4f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RISO" "10 GΩ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b74489d-760e-4405-b14a-0017bfb73b4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Ceramic Type" "X7R Class II"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b30866db-13e2-463b-a3d1-9d0a23e52320")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "L (mm)" "5.7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fd49dcb-e909-4843-8c48-04d19b2aea87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "W (mm)" "2.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9435aa75-37fe-4186-b42f-c48ef5ec1f11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "H (mm)" "2.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bea90f0-4eb8-4afa-b105-6142ea457d0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Fl (mm)" "0.6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63ccdc99-ad51-4552-9e6a-3fbf232de078")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Critical Parameter" "2.2 nF / 250 VAC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "353194be-ac56-43fa-8663-3dab0c308137")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e2accca-85cb-4de3-b62e-edcd48947d5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c760c075-e7a9-42d1-8094-8cbced2efb08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field10" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00284481-4bf0-44a8-9191-0ed0b0f130f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "L (mH)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2484ffee-72a7-43db-856e-2c334f0dbe0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Material" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f424fdbd-2e84-4e93-9380-0a40aeec39f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RDC max. (mΩ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32df7c08-d3cd-4307-8908-b39a5a14d01c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VT (V (AC))" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d79a354-a973-49c7-83a2-d8853d28ea3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.85 -1.65)
+		(end 3.85 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "db69b633-6ffd-4fbd-b760-82444a54f7e2")
+	)
+	(fp_rect
+		(start -2.85 -1.4)
+		(end 2.85 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "296c65a5-4e89-4550-a24c-715a6a6e986f")
+	)
+	(fp_line
+		(start -2.85 -1.51)
+		(end 2.85 -1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "8d28d207-672d-40b4-9357-231517bec956")
+	)
+	(fp_line
+		(start -2.85 1.51)
+		(end 2.85 1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "164d2826-9dcb-478a-a1d8-129669af3342")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1df32f91-1f03-406b-93c0-2083287fe500")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.875 0)
+		(size 1.45 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "403e7775-be59-4229-ad89-ea4b48f95020")
+	)
+	(pad "2" smd rect
+		(at 2.875 0)
+		(size 1.45 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5aa1e968-41d7-48b7-91db-b021639ea452")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD_Wurth.3dshapes/C_Wurth_WCAP-CSSA-2211.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,104 @@
+(footprint "Symbol_HighVoltage_NoTriangle_2x5mm_Silkscreen"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "High voltage symbol, no triangle, 2x5mm, copper layer")
+	(tags "warning graphic")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "53982549-ff1d-47ca-9b78-2d8800a1da31")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Symbol_HighVoltage_NoTriangle_2x5mm_Silkscreen"
+		(at 0.508 3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11b727b0-9c9f-4d50-a07f-588f96be9e2f")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04d3f0e4-b2dd-45db-a22a-2cea44fff94c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "360684f0-c9e3-4282-94f8-c5348cd25946")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_line
+		(start -0.49 -0.65)
+		(end -0.29 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "923b8a53-f048-4656-8e38-d62b14b4b3f7")
+	)
+	(fp_line
+		(start -0.38 1.23)
+		(end 0.13 1.32)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e57ff4b-bd2e-4cea-8716-b5991b8dcf47")
+	)
+	(fp_line
+		(start -0.17 -0.405)
+		(end 0.03 -0.155)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa59f042-dc7c-43b7-93f7-27a07b08a584")
+	)
+	(fp_poly
+		(pts
+			(xy -0.538427 -0.37426) (xy 0.62574 -1) (xy -0.029104 1.386542) (xy 0.305594 1.182813) (xy -0.291042 2.07049)
+			(xy -0.509323 1.02274) (xy -0.276489 1.342886) (xy 0 -0.388812) (xy -1.12051 0.207823) (xy -0.5 -2)
+			(xy 0 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8c3c94c3-1c4c-41ca-b16a-446af1b7bb6e")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,410 @@
+(footprint "B4B-PH-K-S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "B4B-PH-K-S")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 0.2 -3.55 0)
+		(layer "F.SilkS")
+		(uuid "8b63459d-28e6-4245-bb8a-0c360467d8e8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B4B-PH-K-S_LF__SN_"
+		(at -3.2 -0.85 180)
+		(layer "F.Fab")
+		(uuid "b65e5b4d-2755-43a2-8d33-2dac209f14ca")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B4B-PH-K-S-LF-SN_C131334.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa6bc1bd-d87e-4dd4-bb22-c180f2c436c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Conn Shrouded Header (4 Sides) HDR 4 POS 2mm Solder ST Top Entry Thru-Hole Box"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa5f5603-b76e-4deb-ba18-38de6c8d1f6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "Conn Shrouded Header (4 Sides) HDR 4 POS 2mm Solder ST Top Entry Thru-Hole Box"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9297af3-cd40-4ac9-9f40-1e9277aecdea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e15a1099-2503-455f-9abd-9e785afc2969")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "306-B4BPHKSLFSNPP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73f3ff3b-0ad1-48be-9072-6e34ab5405e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B4B-PH-K-SLFSN?qs=cdbOS8ANM9DXdpq6lW45vA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a1eaf4f-868c-4343-ab86-3241079c2ddd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f8494cb-30f0-485d-bbdd-76c90cec287f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "B4B-PH-K-S(LF)(SN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07968f43-211a-4804-8ec3-7b8c72e98434")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d8208db-cc28-4817-8b07-fc141b03c256")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95bfbf3b-20e4-41cb-949d-8743a19cf996")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field10" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e7638cb-328b-4b9c-aac4-bd5ccc46d5db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "L (mH)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bfd00e3-d365-42d4-9241-c53a1c945849")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Material" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc0ede55-789f-4250-9dc1-bc1391c917e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RDC max. (mΩ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89e412d6-f1ac-4c9c-a389-e58b20c557ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VT (V (AC))" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d86023a9-da90-4f76-8d97-c0c8e6a598cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.95 -2.8)
+		(end 1.95 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "991c2f81-abcd-4f18-8987-5034656c0422")
+	)
+	(fp_line
+		(start -7.95 1.7)
+		(end -7.95 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2892834-46a4-4711-9ad4-eba606b2b2b5")
+	)
+	(fp_line
+		(start 0 1.7)
+		(end -7.95 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1afe9aef-10be-42c0-8dde-48abd509bfeb")
+	)
+	(fp_line
+		(start 1.95 -2.8)
+		(end 1.95 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cbf9c33-cc43-4c5d-899e-25870aa420d3")
+	)
+	(fp_line
+		(start -8.2 -3.05)
+		(end 2.2 -3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0d1c544-1e3f-46a6-b331-fb085a97a1f0")
+	)
+	(fp_line
+		(start -8.2 1.95)
+		(end -8.2 -3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a44d3f8-2f0d-4bfc-be4a-a4589bcd5eca")
+	)
+	(fp_line
+		(start 2.2 -3.05)
+		(end 2.2 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "601e0442-63a1-4a2f-ac04-20858d02fcbb")
+	)
+	(fp_line
+		(start 2.2 1.95)
+		(end -8.2 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d852b2e0-fad8-483f-a930-9e9acc564820")
+	)
+	(fp_line
+		(start -7.95 -2.8)
+		(end 1.95 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "945f673f-f743-4e99-9e75-e40cc86fcb53")
+	)
+	(fp_line
+		(start -7.95 1.7)
+		(end -7.95 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e803fe6-52bb-4468-9c06-fdd33f8dab5b")
+	)
+	(fp_line
+		(start 1.95 -2.8)
+		(end 1.95 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b523905-e793-4b96-9e19-3d87cf2220c8")
+	)
+	(fp_line
+		(start 1.95 1.7)
+		(end -7.95 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e773bc3-266a-46ec-a7ec-c42ee1f842a8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "b31a9913-7bf5-4e04-9070-864f220c2e94")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5afc41ba-2a28-4b26-8b51-702da6c6f13b")
+	)
+	(pad "2" thru_hole circle
+		(at -2 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7410be6a-830f-4f71-8074-1a0b7cdc9b77")
+	)
+	(pad "3" thru_hole circle
+		(at -4 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c5e802b-e2ff-42ce-a747-6ccdc736ae09")
+	)
+	(pad "4" thru_hole circle
+		(at -6 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12bc0c5b-3c4b-4d91-bcf8-bc28e4cf07c4")
+	)
+	(embedded_fonts no)
+	(model "B4B-PH-K-S_LF__SN_.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/B4B-PH-K-S.STEP"
+		(offset
+			(xyz -12.9 2.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

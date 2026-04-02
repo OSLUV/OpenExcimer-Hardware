@@ -648,7 +648,7 @@
       "specctra_dsn": "",
       "step": "OSLUV_ExcimerDriver_simplified.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "OSLUV.wrl"
     },
     "page_layout_descr_file": ""
   },

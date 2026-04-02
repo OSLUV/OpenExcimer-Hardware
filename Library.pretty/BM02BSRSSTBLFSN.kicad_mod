@@ -1,0 +1,389 @@
+(footprint "BM02BSRSSTBLFSN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BM02B-SRSS-TB(LF)(SN)-3")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 2 -1.087 180)
+		(layer "F.SilkS")
+		(uuid "aec58879-cb5f-435c-8c89-611826b4e5d4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BM02B-SRSS-TB_LF__SN_"
+		(at -0.95 3.15 180)
+		(layer "F.Fab")
+		(uuid "1de77894-3024-476c-894d-c860eec7b468")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9228340e-a8e8-45ee-8a44-70be8ed8f2a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Wire To Board / Wire To Wire Connector SMD,P=1mm RoHS"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "278c491e-c568-4932-9fde-866cecea3f1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "4.25"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00b4d0b2-4631-428f-ad92-fb60981fa281")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b1c157d-37f1-41d2-9c23-87fd840ddc21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7607be1-6a14-4187-805a-bb70af1f4ff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7a70149-d3d8-4001-888e-39ef5879b3b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BM02B-SRSS-TB(LF)(SN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "764b622e-92a9-4e47-8375-3c3d2404af11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c660658-0274-49c1-b0da-81020f5701ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cda23f9-ae35-4fb0-bd4e-a6407d55a168")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field10" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e0997cd-31cf-4eb1-89e6-77e2bc183b03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "L (mH)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cbf26c2-2ddd-46f1-85a0-ef7687fdf438")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Material" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8dbe7a5-b129-4ea5-9ab3-09ff951d6407")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RDC max. (mΩ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "854732c2-d5fa-42c4-be6d-ebcd9b331773")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VT (V (AC))" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01f7894c-8b87-489b-8212-bdcf48c4439a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.4 -3.612)
+		(end 3.4 -3.612)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4a74e70-3526-4b72-b5d0-06052e6717fc")
+	)
+	(fp_line
+		(start -3.4 2.838)
+		(end -3.4 -3.612)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f83f79b-d758-4e56-adf8-a7a4c5d8581c")
+	)
+	(fp_line
+		(start 3.4 -3.612)
+		(end 3.4 2.838)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1976787-671e-4d41-af0e-73eeb5cfa749")
+	)
+	(fp_line
+		(start 3.4 2.838)
+		(end -3.4 2.838)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da9c92aa-97ef-4ad2-a7f7-8f55c8fdcb81")
+	)
+	(fp_line
+		(start -2 -1.062)
+		(end 2 -1.062)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "506bfbd8-76f5-4a76-a679-1b7e6ede8918")
+	)
+	(fp_line
+		(start -2 1.838)
+		(end -2 -1.062)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cb3114a-8b33-45b3-b2fa-2b49a0ccb155")
+	)
+	(fp_line
+		(start 2 -1.062)
+		(end 2 1.838)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0fbb6b3-1ddd-414c-b055-0e2d07098169")
+	)
+	(fp_line
+		(start 2 1.838)
+		(end -2 1.838)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59e3763e-2db9-4ed8-b3bc-b864ae66993e")
+	)
+	(fp_line
+		(start -2 -1.062)
+		(end -2 -0.437)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "62c59b11-eb1c-4bb2-a3ce-3a685ec4bde7")
+	)
+	(fp_line
+		(start -1.3 -1.062)
+		(end -2 -1.062)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "0c0d3c6e-8934-436a-9d19-6598ec212db1")
+	)
+	(fp_line
+		(start -0.7 1.838)
+		(end 0.9 1.838)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "96201510-2174-4b4d-adde-c08dff0a0f96")
+	)
+	(fp_line
+		(start 1.3 -1.062)
+		(end 2 -1.062)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "5a9821ea-55df-46fd-b6dc-ef8ab775880b")
+	)
+	(fp_line
+		(start 2 -1.062)
+		(end 2 -0.437)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "08bf9111-7289-49d8-8eb0-17eef18ec3d8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.387 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e0198d6-3a84-4c5b-af68-f0b6813cdc56")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 -1.837)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a111aca4-873e-413a-a7a3-246ad1e40172")
+	)
+	(pad "2" smd rect
+		(at 0.5 -1.837)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "556285ea-e9a0-4ef2-a9d6-ef9ecde26603")
+	)
+	(pad "MP1" smd rect
+		(at -1.8 0.688)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bc4cf957-dd44-4a80-972f-3727963d95b5")
+	)
+	(pad "MP2" smd rect
+		(at 1.8 0.688)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ca34aea-c1d8-426b-9657-5734be2b2ada")
+	)
+	(embedded_fonts no)
+	(model "BM02B-SRSS-TB_LF__SN_.stp"
+		(offset
+			(xyz 0.999999985 0.03999999851 -0.03999999851)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)

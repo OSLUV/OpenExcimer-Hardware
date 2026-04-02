@@ -1,0 +1,380 @@
+(footprint "VSSOP-8_3.0x3.0mm_P0.65mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf")
+	(tags "VSSOP-8 3.0 x 3.0")
+	(property "Reference" "REF**"
+		(at 0 -2.5 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "59b02732-4fea-4f8d-b251-77060c4bad00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OPA2356AIDGKR"
+		(at 0.35 1.9 180)
+		(layer "F.Fab")
+		(uuid "a75d5c09-a122-4d13-8b2d-55026290f5b4")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fa849d3-6650-4e6a-9740-be5ba9d2d000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Dual operational amplifier"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f8207c4-ed64-44c2-b973-6dee17fa641d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e13a3680-e450-43c9-a508-33069f1c3303")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Name" "kicad_builtin_opamp_dual"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbead40e-0eb6-46cd-8414-51c5312282e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "SUBCKT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "023f1473-7bec-4c5a-83d9-46ba58e66d0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0a185b9-60fe-488b-9c32-38661adcf632")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef3c14da-8ad8-43dd-a8f0-61ba83a5027a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ea3aa80-9ae8-46ff-b2d4-1a40f9b8f98d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field10" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7b2f61e-7a37-4d3f-8f34-1a5362bd37cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "L (mH)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "046da7f8-19b5-4767-9988-8d6912decc82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Material" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb41a0ef-87d6-4ab3-9e35-27f8a68ec727")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RDC max. (mΩ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3260c93-c321-4612-a08a-0e257db8f1e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VT (V (AC))" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e013c63c-694d-495e-a398-3850cd7f248b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -1.62)
+		(end -3 -1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3263b23b-3ddd-45ed-9372-9a46119d5e41")
+	)
+	(fp_line
+		(start 1 1.62)
+		(end -1 1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e839aa4-05b2-41e1-9565-f0872d2cc2b4")
+	)
+	(fp_line
+		(start -3.48 -1.75)
+		(end 3.48 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e21f666-ff4d-4e01-872b-601d2ab27a49")
+	)
+	(fp_line
+		(start -3.48 1.75)
+		(end -3.48 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "660992e7-ebaf-4b06-b809-9fde697da593")
+	)
+	(fp_line
+		(start 3.48 -1.75)
+		(end 3.48 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea683eac-b032-449b-95c0-315a48fe0ee6")
+	)
+	(fp_line
+		(start 3.48 1.75)
+		(end -3.48 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73e1f024-d7a5-4e15-82b8-79874e89dcf1")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "783e89cf-5c0f-49e5-90b0-dda7045c9312")
+	)
+	(fp_line
+		(start -0.5 -1.5)
+		(end -1.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5aae5ce4-c5ef-4951-aa59-df0658bf1b67")
+	)
+	(fp_line
+		(start -0.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb45d72b-f03b-4503-bb15-681067e9b877")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "610bf8e3-ce22-444a-b084-77c93e70f777")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7e9595c-435e-4d8c-b94c-fd33751217a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "0bb1d37e-0ca6-4a64-a1b5-1cbcb51a479a")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 -0.975 270)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a3579ea8-e7bc-4a0c-8513-903420e1fbd3")
+	)
+	(pad "2" smd rect
+		(at -2.2 -0.325 270)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9976512d-5546-47ce-980b-ece24eb76290")
+	)
+	(pad "3" smd rect
+		(at -2.2 0.325 270)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa7b3ce9-9ea5-47ba-a9b8-f6592ffe4134")
+	)
+	(pad "4" smd rect
+		(at -2.2 0.975 270)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8848cd5-301a-4a9e-ba54-8fa764e4aeb0")
+	)
+	(pad "5" smd rect
+		(at 2.2 0.975 270)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1a26838-3e05-435f-9532-a148e90a7917")
+	)
+	(pad "6" smd rect
+		(at 2.2 0.325 270)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a92775f9-5e31-4e31-9a57-b3a005ac25f5")
+	)
+	(pad "7" smd rect
+		(at 2.2 -0.325 270)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ecc0f6d-bb3b-4a0d-b645-d97b584ba8ee")
+	)
+	(pad "8" smd rect
+		(at 2.2 -0.975 270)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe16d11d-7be4-4170-8a40-e1197f0cec17")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_3.0x3.0mm_P0.65mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
