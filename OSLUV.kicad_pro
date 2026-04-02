@@ -74,10 +74,6 @@
         [
           "clearance|104150000|117787500|672ad81b-679b-483a-a1d4-4214302eebb5|db206c34-9ca2-48be-8641-661b9670744b",
           ""
-        ],
-        [
-          "unconnected_items|132353300|115250000|62a70a4b-adbf-4938-9612-4608f2762a9a|329aa5e9-3266-4487-a744-e1c9ca3652b3",
-          ""
         ]
       ],
       "meta": {
@@ -650,7 +646,7 @@
       "plot": "Fertigungsdaten/",
       "pos_files": "Fertigungsdaten/",
       "specctra_dsn": "",
-      "step": "OSLUV_simplified.step",
+      "step": "OSLUV_ExcimerDriver_simplified.step",
       "svg": "",
       "vrml": ""
     },
