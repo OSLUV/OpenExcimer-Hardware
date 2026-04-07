@@ -1499,7 +1499,7 @@
 			(uuid "a53ec688-db7c-4ed5-888f-333c8d76e1f6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/FAN3100TSX.stp"
+		(model "${KIPRJMOD}/packages3D/FAN3100TSX.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3616,7 +3616,7 @@
 			(uuid "ac94435c-d341-4277-8555-609d29c4ba10")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/AP63300WU-7.stp"
+		(model "${KIPRJMOD}/packages3D/AP63300WU-7.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6366,7 +6366,7 @@
 			(uuid "d0ca173b-0858-49a5-be51-88902b178558")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/AP63300WU-7.stp"
+		(model "${KIPRJMOD}/packages3D/AP63300WU-7.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12620,7 +12620,7 @@
 			(uuid "bc250a34-ae3f-45ff-a2e7-106e6ea2dc50")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/TC33X-2-103E.stp"
+		(model "${KIPRJMOD}/packages3D/TC33X-2-103E.wrl"
 			(offset
 				(xyz 0 0 0.279999997)
 			)
@@ -16968,7 +16968,7 @@
 			(uuid "bbaeb09a-c5f4-44d7-af9c-94fe8cb8acf7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/BM02B-SRSS-TB_LF__SN_.stp"
+		(model "${KIPRJMOD}/packages3D/BM02B-SRSS-TB_LF__SN_.wrl"
 			(offset
 				(xyz 0.999999985 0.03999999851 -0.03999999851)
 			)
@@ -21472,7 +21472,7 @@
 			(uuid "2fb99343-d412-4d8c-a798-f7081d0c7947")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/D5V0P4UR6SO-7.stp"
+		(model "${KIPRJMOD}/packages3D/D5V0P4UR6SO-7.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30978,7 +30978,7 @@
 			(uuid "d7472a43-1ed5-4458-b0bf-cef8ae8a7e85")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/STM32G071KBT6.stp"
+		(model "${KIPRJMOD}/packages3D/STM32G071KBT6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47323,7 +47323,7 @@
 			(uuid "6820387d-325e-46d5-af10-c5de77369ecc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/B66359B1013T001.stp"
+		(model "${KIPRJMOD}/packages3D/B66359B1013T001.wrl"
 			(offset
 				(xyz -0.09000000222 0 14.5600002)
 			)
