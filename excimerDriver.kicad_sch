@@ -8825,6 +8825,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C125931"
+			(at 208.28 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-072K2L"
+			(at 208.28 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf05c18b-9f05-4278-94cc-9d06fd251c5c")
 		)
@@ -9140,6 +9158,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C529348"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "a549516f-c1ba-4a2d-ac1d-5cf860064ba2")
 		)
@@ -9419,6 +9446,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 224.79 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C185112"
+			(at 224.79 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MF-NSMF020-2"
 			(at 224.79 148.59 90)
 			(effects
 				(font
@@ -9938,6 +9983,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C491710"
+			(at 29.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "f91c8799-0e46-4de5-a4ce-d629d4210039")
 		)
@@ -10144,6 +10198,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 48.26 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2934573"
+			(at 48.26 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0440001.WR"
 			(at 48.26 25.4 90)
 			(effects
 				(font
@@ -10416,6 +10488,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bf89a02-7224-401c-9c7e-4143734487b8")
 		)
@@ -10548,6 +10638,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1944450d-8b3e-498d-acac-62b8890d92bb")
 		)
@@ -10672,6 +10780,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C153291"
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B102KC8NNNC"
 			(at 176.53 74.93 0)
 			(effects
 				(font
@@ -10877,6 +11003,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15725"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KC8NNNC"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5908bac-8c0e-4a8c-a09d-67fda20e2eaa")
 		)
@@ -10999,6 +11143,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 200.66 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C125931"
+			(at 200.66 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-072K2L"
 			(at 200.66 144.78 90)
 			(effects
 				(font
@@ -11328,6 +11490,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2915770"
+			(at 107.95 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SCC2211X222K502TS"
+			(at 107.95 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2efbdf71-94fd-4704-b95d-f586b0ae12d8")
 		)
@@ -11348,7 +11528,7 @@
 		(at 194.31 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "48ea1f51-8746-4b24-8038-d00f1a282ad8")
@@ -11452,6 +11632,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 194.31 109.22 0)
 			(effects
 				(font
@@ -11582,6 +11771,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 88.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C138687"
+			(at 88.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL32B106KBJNNNE"
 			(at 88.9 29.21 0)
 			(effects
 				(font
@@ -11788,6 +11995,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C28323"
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca4ae464-6653-4423-9c2c-8cde19ab72a3")
 		)
@@ -11808,7 +12033,7 @@
 		(at 64.77 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5bcd6e95-5f9a-459f-901e-d66af40fa7ba")
@@ -11912,6 +12137,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 64.77 25.4 0)
 			(effects
 				(font
@@ -12039,6 +12273,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 43.18 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C109318"
+			(at 43.18 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710RL"
 			(at 43.18 139.7 90)
 			(effects
 				(font
@@ -12370,6 +12622,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "744045008"
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd3c62d4-d939-4162-8ebd-99fab6bb9424")
 		)
@@ -12390,7 +12660,7 @@
 		(at 226.06 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "600595c0-db2a-4493-9e16-6a43690b9f73")
@@ -12494,6 +12764,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 226.06 25.4 0)
 			(effects
 				(font
@@ -12631,6 +12910,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C138687"
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL32B106KBJNNNE"
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62d61f29-83ca-4bbd-b3c4-163f5d0ea1af")
 		)
@@ -12651,7 +12948,7 @@
 		(at 184.15 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "64a69796-78e7-466c-aabf-babd8f552fcb")
@@ -12755,6 +13052,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 184.15 91.44 0)
 			(effects
 				(font
@@ -12883,6 +13189,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 213.36 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C114549"
+			(at 213.36 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07680RL"
 			(at 213.36 102.87 90)
 			(effects
 				(font
@@ -13075,6 +13399,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C460018"
+			(at 76.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd434de9-9144-46b6-811e-392400066210")
 		)
@@ -13217,6 +13550,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C105588"
+			(at 231.14 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
+			(at 231.14 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd716356-39ba-4444-be1c-10baa16efc11")
 		)
@@ -13342,6 +13693,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 64.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C88770"
+			(at 64.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "35ZLJ330M8X20"
 			(at 64.77 29.21 0)
 			(effects
 				(font
@@ -13538,6 +13907,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 82.55 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C114668"
+			(at 82.55 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071K5L"
 			(at 82.55 132.08 90)
 			(effects
 				(font
@@ -13807,6 +14194,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C131334"
+			(at 236.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b3666528-8126-469b-9724-764e4465c42a")
 		)
@@ -14011,6 +14407,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15725"
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KC8NNNC"
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfaa4445-6bf5-4695-8d0b-6f194bcb6a26")
 		)
@@ -14133,6 +14547,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 42.9822 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C109318"
+			(at 42.9822 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710RL"
 			(at 42.9822 142.24 90)
 			(effects
 				(font
@@ -14293,7 +14725,7 @@
 		(at 176.53 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8c1d4d0e-3995-434c-a7be-157636791864")
@@ -14405,6 +14837,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f64a60ec-c110-42d7-8fd0-635fbc374ddd")
 		)
@@ -14422,7 +14863,7 @@
 		(at 181.61 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8f865724-3ac0-4333-bd69-a1fa8383c3c8")
@@ -14526,6 +14967,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -14681,7 +15131,7 @@
 		(at 111.76 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "94fdfc0f-a962-4e72-aa2c-8cb091e0d894")
@@ -14786,6 +15236,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 111.76 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 111.76 176.53 0)
 			(effects
 				(font
@@ -14996,6 +15455,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C965804"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XL-1608UGC-04"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a837eba7-6150-4af8-8777-64bf615686df")
 		)
@@ -15120,6 +15597,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 210.82 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C15725"
+			(at 210.82 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KC8NNNC"
 			(at 210.82 152.4 90)
 			(effects
 				(font
@@ -15260,6 +15755,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 85.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 85.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5d89822-01bf-4082-b183-bb0578830117")
 		)
@@ -15390,6 +15903,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C105588"
+			(at 43.18 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
+			(at 43.18 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fda8c7f-60ec-4189-87e8-f1c55052bb71")
 		)
@@ -15512,6 +16043,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 172.72 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22548"
+			(at 172.72 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071KL"
 			(at 172.72 92.71 90)
 			(effects
 				(font
@@ -15769,6 +16318,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C531179"
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71fc3ed5-c5ab-44dc-9fa3-975836127fdd")
 		)
@@ -15905,6 +16463,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 54.61 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1983631"
+			(at 54.61 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3KASMC24A"
 			(at 54.61 31.75 90)
 			(effects
 				(font
@@ -16234,6 +16810,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2915770"
+			(at 82.55 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SCC2211X222K502TS"
+			(at 82.55 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8edc9c4e-97b6-443c-a320-f6bdb12edfbe")
 		)
@@ -16373,6 +16967,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C965799"
+			(at 73.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XL-1608SURC-06"
+			(at 73.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6392b3e7-db34-47a8-ab9d-0da11776615a")
 		)
@@ -16495,6 +17107,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 81.28 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C114668"
+			(at 81.28 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071K5L"
 			(at 81.28 115.57 90)
 			(effects
 				(font
@@ -16626,6 +17256,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 224.79 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C114549"
+			(at 224.79 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07680RL"
 			(at 224.79 102.87 90)
 			(effects
 				(font
@@ -16810,6 +17458,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 26.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C264994"
 			(at 26.67 27.94 0)
 			(effects
 				(font
@@ -17151,6 +17808,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C88182"
+			(at 214.63 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MLZ2012N100LT000"
+			(at 214.63 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dd61a09-c2ec-4603-9c49-9b40d4512f50")
 		)
@@ -17347,6 +18022,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C105588"
+			(at 231.14 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
+			(at 231.14 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "faf88b7e-e020-46b9-a406-af217096b27f")
 		)
@@ -17478,6 +18171,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C22548"
+			(at 39.37 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071KL"
+			(at 39.37 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ecd8dab-4e7f-486d-bae9-efb68a395ebb")
 		)
@@ -17601,6 +18312,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 66.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 66.04 90.17 0)
 			(effects
 				(font
@@ -17819,6 +18539,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15725"
+			(at 219.71 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KC8NNNC"
+			(at 219.71 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c309db1e-5f91-4dc0-b67f-c0afcdf7e2b2")
 		)
@@ -18004,6 +18742,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C160388"
+			(at 236.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7cc2879e-c51a-4009-ac14-9b02d32f2250")
 		)
@@ -18030,7 +18777,7 @@
 		(at 224.79 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "da1601db-49b5-4d85-bad6-debf0724a567")
@@ -18134,6 +18881,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 224.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 224.79 38.1 0)
 			(effects
 				(font
@@ -18332,6 +19088,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 200.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C52801"
+			(at 200.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BC817-40,215"
 			(at 200.66 109.22 0)
 			(effects
 				(font
@@ -18591,6 +19365,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C531179"
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69eead6a-f615-4736-b3c2-e4096b71deae")
 		)
@@ -18800,6 +19583,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15725"
+			(at 64.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KC8NNNC"
+			(at 64.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31a76640-5a98-4c40-aadf-fdb346f072a0")
 		)
@@ -18820,7 +19621,7 @@
 		(at 104.14 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e568ecec-7c6d-4dd5-b715-6c82ae9cba66")
@@ -18925,6 +19726,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 104.14 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 104.14 176.53 0)
 			(effects
 				(font
@@ -19127,6 +19937,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C353893"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA210AIDCKR"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "19ef159e-cb0c-4b2c-9eef-3b973908033c")
 		)
@@ -19270,6 +20098,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C728292"
+			(at 133.35 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PA1206FRF470R02L"
+			(at 133.35 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7064817c-0ecc-4a89-9d97-c4dcf9f4842b")
 		)
@@ -19395,6 +20241,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22548"
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071KL"
 			(at 181.61 74.93 0)
 			(effects
 				(font
@@ -19536,6 +20400,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C138687"
+			(at 82.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL32B106KBJNNNE"
+			(at 82.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "50727d9e-f052-4214-957f-28d817a14e72")
 		)
@@ -19658,6 +20540,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 190.5 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22548"
+			(at 190.5 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071KL"
 			(at 190.5 109.22 90)
 			(effects
 				(font
@@ -19987,6 +20887,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 184.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C15725"
+			(at 184.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KC8NNNC"
 			(at 184.15 96.52 0)
 			(effects
 				(font

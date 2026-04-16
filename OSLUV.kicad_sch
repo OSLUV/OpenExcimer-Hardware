@@ -896,6 +896,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 193.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd905ddb-87e9-4ec1-9fae-e98d587ade3c")
 		)
@@ -927,7 +936,7 @@
 				)
 			)
 		)
-		(property "Value" "B5P-VH"
+		(property "Value" "B2P5-VH"
 			(at 247.65 81.28 0)
 			(effects
 				(font
@@ -1019,6 +1028,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C594162"
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B2P5-VH"
 			(at 238.76 96.52 0)
 			(effects
 				(font
@@ -1152,6 +1179,15 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 182.88 120.65 0)
 			(effects
 				(font
