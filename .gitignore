@@ -11,12 +11,13 @@
 ~$*.kicad_prl
 ~*.kicad*.lck
 *_autosave-*
+*auto_saved_files*
 *.tmp
 *.log
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-output/
+# output/
 
 # Netlist files (exported from Eeschema)
 *.net
