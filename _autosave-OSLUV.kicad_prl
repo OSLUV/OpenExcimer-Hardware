@@ -54,12 +54,13 @@
     "zone_display_mode": 1
   },
   "git": {
+    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "OSLUV.kicad_prl",
+    "filename": "_autosave-OSLUV.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -123,6 +124,7 @@
     "files": []
   },
   "schematic": {
+    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,
@@ -130,6 +132,7 @@
       "lockedItems": false,
       "otherItems": true,
       "pins": true,
+      "ruleAreas": true,
       "symbols": true,
       "text": true,
       "wires": true

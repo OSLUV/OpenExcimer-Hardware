@@ -1,0 +1,18 @@
+(version 1)
+
+(rule "PE creepage" 
+(constraint creepage (min 8.0mm)) 
+(condition "A.hasNetclass('EARTH') && !B.hasNetclass('EARTH')"))
+
+(rule "HV drain"
+(constraint clearance (min 2.25mm))
+(condition "A.hasNetclass('HV_Drain') && !B.hasNetclass('HV_Drain')"))
+
+(rule "HV divider2"
+(constraint clearance (min 1.2mm))
+(condition "A.hasNetclass('HV_Drain_div') && !B.hasNetclass('HV_Drain_div')"))
+
+(rule "HV divider1"
+(constraint clearance (min 1.2mm))
+(condition "A.hasNetclass('HV_Drain') && B.hasNetclass('HV_Drain_div')"))
+ 

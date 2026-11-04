@@ -1,14 +1,15 @@
 (footprint "TestPoint_Pad_D1.0mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SMD pad as test Point, diameter 1.0mm")
 	(tags "test point SMD pad")
 	(property "Reference" "REF**"
 		(at 0 -1.448 0)
 		(layer "User.3")
-		(uuid "9760ece9-b61d-4e05-b4b1-57d94f4246db")
+		(hide yes)
+		(uuid "aa618a9e-fded-441c-8a6c-1f625ee0ea4a")
 		(effects
 			(font
 				(size 1 1)
@@ -16,15 +17,14 @@
 			)
 		)
 	)
-	(property "Value" "Gate"
-		(at 0 0.4 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0e161434-f63e-4756-8293-f8829cf773e9")
+	(property "Value" "${VALUE}"
+		(at 0.3 2 0)
+		(layer "F.SilkS" knockout)
+		(uuid "cd808406-febb-4829-95b7-e71b328cc859")
 		(effects
 			(font
-				(size 0.4 0.4)
-				(thickness 0.05)
+				(size 0.8 0.8)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "57c18d05-c59b-4eaf-bac5-1ad0c5e82cdd")
+		(uuid "112d0ba6-4595-4059-8c72-02707ca9e5ee")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cf1d65c3-fc41-4050-9ded-a433cb572f01")
+		(uuid "ecedad66-dd32-4752-88ee-4c422178010d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2e52f6a6-8bb2-408e-b86d-b3e6398190ec")
+		(uuid "c4c83e17-407c-4dc7-89d8-52792234e520")
 		(effects
 			(font
 				(size 1 1)
@@ -72,7 +72,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "49ffba9f-a8f2-4a47-8c7d-95c6809e29a5")
+		(uuid "df852929-7134-4987-8f52-d0a75439eeda")
 		(effects
 			(font
 				(size 1 1)
@@ -85,7 +85,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e7bd1c59-1d3d-414b-bdff-b03bb215545a")
+		(uuid "6818754c-3643-4556-81c4-1a6dbd4cc065")
 		(effects
 			(font
 				(size 1 1)
@@ -98,7 +98,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "17a5e792-5869-4c6a-b6eb-4e5f6d708c28")
+		(uuid "969a640d-2868-45f4-a0d3-92c8469b3078")
 		(effects
 			(font
 				(size 1 1)
@@ -111,7 +111,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1bdc987a-aed3-47ab-9be5-cf82a1b7cb09")
+		(uuid "3f5ab349-d630-4e6d-a5b7-b61492855965")
 		(effects
 			(font
 				(size 1 1)
@@ -124,7 +124,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "79ac9484-2968-4695-a0ef-356eb206ebce")
+		(uuid "7baf93aa-e109-477f-a754-5f612d540b3b")
 		(effects
 			(font
 				(size 1 1)
@@ -137,7 +137,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "36a5c1fc-ad3a-437c-8ed6-89fe86009cbc")
+		(uuid "1a106c05-5294-4124-9f02-993b88c62e9e")
 		(effects
 			(font
 				(size 1 1)
@@ -146,6 +146,7 @@
 		)
 	)
 	(attr exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 0 0.7)
@@ -155,7 +156,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "5254b828-7f63-4682-b95f-46e75bf391cc")
+		(uuid "eba45f7c-2705-4ddb-ab8e-9389cd4740c5")
 	)
 	(fp_circle
 		(center 0 0)
@@ -166,13 +167,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "cf3e4f92-5088-4e86-9793-cf9199c1e4ee")
+		(uuid "035a71ca-ee35-4924-b0f4-b56cac912e6b")
 	)
 	(pad "1" smd circle
 		(at 0 0)
 		(size 1 1)
 		(layers "F.Cu" "F.Mask")
-		(uuid "7ea59af4-484a-4000-9287-49dede793eb4")
+		(uuid "9abdb750-6c98-4802-88d7-d4cc91f43ce4")
 	)
 	(embedded_fonts no)
 )

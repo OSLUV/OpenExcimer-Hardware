@@ -1,0 +1,233 @@
+(footprint "BM02BSRSSTBLFSN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BM02B-SRSS-TB(LF)(SN)-3")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 -0.387 0)
+		(layer "F.SilkS")
+		(uuid "6268f775-5e88-461d-b4c8-58c360ab9217")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BM02BSRSSTBLFSN"
+		(at 0 -0.387 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1b0d5e93-c359-4d08-986a-2df6953c2c5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12ce2c7a-fa21-4c2a-8e5b-12385d70d956")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dd8fd0d-7ae6-44b3-9d19-70ee49c79e9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.062)
+		(end -2 -0.437)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cb40b2c-1e96-4c6b-afb6-0139928a662e")
+	)
+	(fp_line
+		(start -1.3 -1.062)
+		(end -2 -1.062)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "418d4d17-a49c-495c-8f5c-e3f9beee893e")
+	)
+	(fp_line
+		(start -0.7 1.838)
+		(end 0.9 1.838)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3db4ee00-ecd8-494d-b906-447dd009725c")
+	)
+	(fp_line
+		(start 1.3 -1.062)
+		(end 2 -1.062)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cae31ba3-1326-4eb0-b726-aa24d763a902")
+	)
+	(fp_line
+		(start 2 -1.062)
+		(end 2 -0.437)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cd4437b-0e5c-4cf4-9407-07fa58c277c5")
+	)
+	(fp_line
+		(start -3.4 -3.612)
+		(end 3.4 -3.612)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72315179-b6c6-4583-9e92-f1b03855ea46")
+	)
+	(fp_line
+		(start -3.4 2.838)
+		(end -3.4 -3.612)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63939e38-72a4-47e1-a07a-ba1476f68cab")
+	)
+	(fp_line
+		(start 3.4 -3.612)
+		(end 3.4 2.838)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "61687ec4-a16e-463f-9df4-a58266f1ae4f")
+	)
+	(fp_line
+		(start 3.4 2.838)
+		(end -3.4 2.838)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c37cedea-d239-4e2d-a0a6-5f789f82f416")
+	)
+	(fp_line
+		(start -2 -1.062)
+		(end 2 -1.062)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1ebcd3a-945e-4525-a795-5219c21c8afb")
+	)
+	(fp_line
+		(start -2 1.838)
+		(end -2 -1.062)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff9fa3d0-9264-492c-bdf0-16ba4a5fa997")
+	)
+	(fp_line
+		(start 2 -1.062)
+		(end 2 1.838)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d43e98d0-8b38-4abc-bd3b-7faa3d0ead80")
+	)
+	(fp_line
+		(start 2 1.838)
+		(end -2 1.838)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa010a2e-3749-490e-bbfb-5b1cac154d04")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.387 0)
+		(layer "F.Fab")
+		(uuid "b1c3bd49-1968-4b58-884d-2433a0fcc315")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 -1.837)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "28f990c0-1678-45b9-a1da-126122774414")
+	)
+	(pad "2" smd rect
+		(at 0.5 -1.837)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4018d78d-e444-48a2-9850-cc7c9d146949")
+	)
+	(pad "MP1" smd rect
+		(at -1.8 0.688)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7d7c326a-81be-42a8-9a65-cabd53db3f08")
+	)
+	(pad "MP2" smd rect
+		(at 1.8 0.688)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8627f2e5-91d1-451f-967a-282aa5a23cdc")
+	)
+	(embedded_fonts no)
+	(model "BM02B-SRSS-TB_LF__SN_.stp"
+		(offset
+			(xyz 0.999999985 0.03999999851 -0.03999999851)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
