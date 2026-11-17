@@ -581,7 +581,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 11.37 -2.62)
@@ -5995,7 +5995,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 11.37 -2.62)
@@ -6699,7 +6699,7 @@
 	(footprint "Library:Hansmann__CONN_B2P5-VH_JST_eaa1bd78bf"
 		(layer "F.Cu")
 		(uuid "2f997619-6f72-40ba-8c95-2016f14cf990")
-		(at 104.4955 101.0651 90)
+		(at 104 101 90)
 		(tags "B5P-VH ")
 		(property "Reference" "J103"
 			(at 17.3151 6.5045 0)
@@ -24779,28 +24779,30 @@
 		(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf")
 		(tags "tag connect programming header pogo pins")
 		(property "Reference" "J3"
-			(at 0.25 2.2 180)
+			(at 0 2.7 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5a1132d4-50d7-4a5b-b090-f4bd1ca57c2c")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "TC2030"
-			(at 0.45 -1.015 90)
+			(at 0 -2.3 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "375002b5-1632-4f18-affb-e9f7063e59b4")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/Datasheets/TC2030-IDC-NL-Datasheet-Rev-B_f2dc124d82.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24813,7 +24815,7 @@
 				)
 			)
 		)
-		(property "Description" "Tag-Connect’s 6-pins connector"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24826,160 +24828,11 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "71baf8af-b132-45a2-8da9-31035486e722")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ab9c947-b671-4bb9-94d8-f68459f8f227")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
-		(property "Field10" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3291fbca-a1fd-4cc2-b67e-cac9e25be222")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
-		(property "L (mH)" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68fae65d-027f-40e6-ac1a-bdddfe11fdcd")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
-		(property "Material" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3ec927ac-5610-4e29-91bb-3bdbffcedd88")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
-		(property "RDC max. (mΩ)" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "94d7e05b-f30e-4fd1-b6f0-4633a1751c39")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
-		(property "VT (V (AC))" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "83f1b9d8-1f05-43cb-9f9e-247b2c985037")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
-		(property "H (mm)" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf7b6f10-1320-40d8-9ab9-2a67f3d29298")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
-		(property "L (mm)" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0661848-7d51-4568-87a2-c4354aff4f16")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
-		(property "VR (V (AC))" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00779a76-0a63-4134-ad4f-238a82552c3d")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
-		(property "W (mm)" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4ab8cd4-64db-44c5-89d2-6cf86469d024")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
-				)
-			)
-		)
 		(property ki_fp_filters "*TC2030*")
 		(path "/6014df19-3871-48ae-ae2e-18ff86bea4c0")
 		(sheetname "/")
 		(sheetfile "Aerolamp_Driver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "2" "4" "6")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.27 1.27)
@@ -25053,13 +24906,13 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 -0.115 90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "e22e5d6e-ec22-4100-9ab6-daf69d70238c")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.05)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25087,7 +24940,7 @@
 		(pad "1" thru_hole circle
 			(at -1.27 0.635 90)
 			(size 1 1)
-			(drill 0.7)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
@@ -25097,7 +24950,7 @@
 		(pad "2" thru_hole circle
 			(at -1.27 -0.635 90)
 			(size 1 1)
-			(drill 0.7)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/SWDIO")
@@ -25107,7 +24960,7 @@
 		(pad "3" thru_hole circle
 			(at 0 0.635 90)
 			(size 1 1)
-			(drill 0.7)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/RESET")
@@ -25117,7 +24970,7 @@
 		(pad "4" thru_hole circle
 			(at 0 -0.635 90)
 			(size 1 1)
-			(drill 0.7)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/SWCLK")
@@ -25127,7 +24980,7 @@
 		(pad "5" thru_hole circle
 			(at 1.27 0.635 90)
 			(size 1 1)
-			(drill 0.7)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -25137,7 +24990,7 @@
 		(pad "6" thru_hole circle
 			(at 1.27 -0.635 90)
 			(size 1 1)
-			(drill 0.7)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J3-Pad6)")
@@ -59457,12 +59310,20 @@
 		(uuid "da25a25b-5cf7-426b-83ba-8c63b59fcb32")
 	)
 	(segment
-		(start 106.665488 101.0651)
-		(end 108.925194 103.324806)
+		(start 108.925194 103.324806)
+		(end 106.600388 101)
 		(width 1)
 		(layer "B.Cu")
 		(net "/lampDriver/Lamp_GND")
-		(uuid "3e2ee19c-037d-46ac-860a-333b68d8b05c")
+		(uuid "2627280f-d3a4-4bb6-8ec6-af29e97a9e24")
+	)
+	(segment
+		(start 106.600388 101)
+		(end 104 101)
+		(width 1)
+		(layer "B.Cu")
+		(net "/lampDriver/Lamp_GND")
+		(uuid "6a5542a8-e131-4f83-8aba-ea4a8156ed99")
 	)
 	(segment
 		(start 122.105 104.8925)
@@ -59471,14 +59332,6 @@
 		(layer "B.Cu")
 		(net "/lampDriver/Lamp_GND")
 		(uuid "751682d5-8f21-4658-9c01-074ffd5bb374")
-	)
-	(segment
-		(start 106.665488 101.0651)
-		(end 104.4955 101.0651)
-		(width 1)
-		(layer "B.Cu")
-		(net "/lampDriver/Lamp_GND")
-		(uuid "7be09aef-737d-4258-afc7-9b79dd8c0989")
 	)
 	(segment
 		(start 124.2125 107)
@@ -59497,12 +59350,28 @@
 		(uuid "99e8aa0c-fa72-4568-8616-7bbf6addb69d")
 	)
 	(segment
+		(start 104.4304 101)
+		(end 104.4955 101.0651)
+		(width 1)
+		(layer "B.Cu")
+		(net "/lampDriver/Lamp_GND")
+		(uuid "9d16d95e-0753-4b9e-9ce1-05b226a6b644")
+	)
+	(segment
 		(start 123.9625 106.75)
 		(end 122.105 104.8925)
 		(width 1)
 		(layer "B.Cu")
 		(net "/lampDriver/Lamp_GND")
 		(uuid "bc698b3f-6ac8-4430-bc59-2cec16faf348")
+	)
+	(segment
+		(start 104 101)
+		(end 104.4304 101)
+		(width 1)
+		(layer "B.Cu")
+		(net "/lampDriver/Lamp_GND")
+		(uuid "e60b9fb3-59e7-438b-80e2-0c1971ae7545")
 	)
 	(segment
 		(start 123.9625 106.75)
@@ -59526,15 +59395,23 @@
 		(width 1)
 		(layer "F.Cu")
 		(net "/lampDriver/HV_Lamp")
-		(uuid "5ae536b4-4826-4314-b01f-ed1d5dc1ccc0")
+		(uuid "299f2484-bc75-4213-8c13-71390bbb6401")
 	)
 	(segment
 		(start 108.945101 85.225101)
-		(end 104.4955 85.225101)
+		(end 104.0651 85.225101)
 		(width 1)
 		(layer "F.Cu")
 		(net "/lampDriver/HV_Lamp")
-		(uuid "ca797da0-40eb-410b-a229-8acfb538b363")
+		(uuid "2ff124e0-f497-4fb3-a6d6-37b7284a2b5e")
+	)
+	(segment
+		(start 104.0651 85.225101)
+		(end 104 85.160001)
+		(width 1)
+		(layer "F.Cu")
+		(net "/lampDriver/HV_Lamp")
+		(uuid "d971962b-2751-46ee-bbc3-25913f1838cb")
 	)
 	(segment
 		(start 115.63 92.25)
