@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|100625000|115487500|ee26a8d1-7745-4cf6-b152-5605bfa62535|91a613d3-8664-43e9-b0dc-cacb951fda23",
-          ""
-        ],
-        [
-          "clearance|101875000|115487500|ee26a8d1-7745-4cf6-b152-5605bfa62535|672ad81b-679b-483a-a1d4-4214302eebb5",
-          ""
-        ],
-        [
-          "clearance|101875000|117787500|91a613d3-8664-43e9-b0dc-cacb951fda23|db206c34-9ca2-48be-8641-661b9670744b",
-          ""
-        ],
-        [
-          "clearance|104150000|117787500|672ad81b-679b-483a-a1d4-4214302eebb5|db206c34-9ca2-48be-8641-661b9670744b",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -262,6 +245,15 @@
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -644,7 +636,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Fertigungsdaten/",
+      "plot": "output/",
       "pos_files": "Fertigungsdaten/",
       "specctra_dsn": "",
       "step": "OSLUV_ExcimerDriver_simplified.step",
@@ -1096,5 +1088,11 @@
       "lampDriver"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "time_domain_parameters": {
+    "delay_profiles_user_defined": [],
+    "meta": {
+      "version": 0
+    }
+  }
 }
