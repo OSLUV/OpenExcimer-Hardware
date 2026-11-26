@@ -5910,6 +5910,12 @@
 		(uuid "1d2b6aa5-287c-46cd-89ac-3072f7f68cb3")
 	)
 	(junction
+		(at 182.88 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d4e246d-5b09-421e-82c9-2bd26516360c")
+	)
+	(junction
 		(at 83.82 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5974,12 +5980,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66fbb16e-167e-4557-9130-acaa02747b37")
-	)
-	(junction
-		(at 182.88 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7059d3dc-3198-4f47-b1a4-f78f4cbe2e10")
 	)
 	(junction
 		(at 90.17 33.02)
@@ -6070,18 +6070,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbb11855-8e8b-4bc5-965a-0a0e4ea6362a")
-	)
-	(junction
-		(at 267.97 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e09c3293-dad2-4104-a9c7-0035ce9d1d1a")
-	)
-	(junction
-		(at 264.16 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb9d8e1d-33dd-4c9b-bdfd-5ff6027bfa2d")
 	)
 	(no_connect
 		(at 118.11 104.14)
@@ -6221,7 +6209,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 82.55) (xy 261.62 82.55)
+			(xy 257.81 82.55) (xy 261.62 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6318,6 +6306,16 @@
 			(type default)
 		)
 		(uuid "1f0b7aaf-b772-4271-bf57-d28449df29e6")
+	)
+	(wire
+		(pts
+			(xy 261.62 53.34) (xy 270.51 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215e02ce-8396-424a-860e-86ac38d26b20")
 	)
 	(wire
 		(pts
@@ -6471,7 +6469,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 74.93) (xy 261.62 74.93)
+			(xy 257.81 74.93) (xy 261.62 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6501,23 +6499,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 69.85) (xy 208.28 69.85)
+			(xy 204.47 69.85) (xy 207.01 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b634974-a069-4aab-b3c3-b3773e571464")
-	)
-	(wire
-		(pts
-			(xy 267.97 63.5) (xy 270.51 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cb2466d-dbd9-4ea0-ac6b-7a81aab2bd46")
 	)
 	(wire
 		(pts
@@ -6681,16 +6669,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 60.96) (xy 270.51 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56ff6301-2fb3-4126-9768-a37be8c02ae9")
-	)
-	(wire
-		(pts
 			(xy 54.61 69.85) (xy 55.88 69.85)
 		)
 		(stroke
@@ -6741,16 +6719,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 55.88) (xy 227.33 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c46df82-4415-4aa2-ae41-73526c2c592c")
-	)
-	(wire
-		(pts
 			(xy 81.28 175.26) (xy 77.47 175.26)
 		)
 		(stroke
@@ -6761,7 +6729,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 63.5) (xy 208.28 63.5)
+			(xy 182.88 63.5) (xy 207.01 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6781,7 +6749,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 43.18) (xy 264.16 60.96)
+			(xy 261.62 53.34) (xy 261.62 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6841,7 +6809,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 74.93) (xy 208.28 74.93)
+			(xy 204.47 74.93) (xy 207.01 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6871,7 +6839,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 69.85) (xy 261.62 69.85)
+			(xy 257.81 69.85) (xy 261.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6881,7 +6849,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 60.96) (xy 264.16 60.96)
+			(xy 257.81 60.96) (xy 261.62 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7101,7 +7069,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 63.5) (xy 267.97 63.5)
+			(xy 257.81 63.5) (xy 270.51 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7391,16 +7359,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 55.88) (xy 233.68 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95364b4-06a8-4148-b42b-4ec475aae774")
-	)
-	(wire
-		(pts
 			(xy 54.61 142.24) (xy 54.61 144.78)
 		)
 		(stroke
@@ -7501,16 +7459,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 43.18) (xy 264.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e249be04-9c78-4c33-bc9c-443b37f94bcf")
-	)
-	(wire
-		(pts
 			(xy 115.57 101.6) (xy 115.57 104.14)
 		)
 		(stroke
@@ -7528,16 +7476,6 @@
 			(type default)
 		)
 		(uuid "e37c17a9-6c8c-4fce-931e-a0448bb24bff")
-	)
-	(wire
-		(pts
-			(xy 267.97 53.34) (xy 267.97 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e779795c-3b96-425f-bf28-da4a672e2e04")
 	)
 	(wire
 		(pts
@@ -7561,7 +7499,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 80.01) (xy 261.62 80.01)
+			(xy 257.81 80.01) (xy 261.62 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7591,7 +7529,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 77.47) (xy 261.62 77.47)
+			(xy 257.81 77.47) (xy 261.62 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8524,6 +8462,16 @@
 		)
 		(uuid "27548145-605e-454d-8e20-f34b69d6f040")
 	)
+	(label "Lamp_GND"
+		(at 260.35 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f18611b-4237-4961-b279-22d4d8fb3efc")
+	)
 	(label "SWCLK"
 		(at 123.19 102.87 90)
 		(effects
@@ -8545,7 +8493,7 @@
 		(uuid "40e8ae58-aea8-45f6-8cae-4e02d9854dfa")
 	)
 	(label "Isense_Lamp"
-		(at 261.62 80.01 0)
+		(at 260.35 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8573,6 +8521,16 @@
 			(justify left bottom)
 		)
 		(uuid "54f6c068-5b5b-45db-9b05-4808877f071f")
+	)
+	(label "Lamp_HV"
+		(at 269.24 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bf920da-214a-4bee-ab88-f7d52ebca03b")
 	)
 	(label "24V_FUSE"
 		(at 157.48 25.4 0)
@@ -8605,7 +8563,7 @@
 		(uuid "62068168-1dea-4133-b1c0-5d5b0d8c7137")
 	)
 	(label "Usense_Lamp"
-		(at 261.62 69.85 0)
+		(at 260.35 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8705,7 +8663,7 @@
 		(uuid "96ebe6a0-5ab4-4aee-9f9b-19c7adcc71f1")
 	)
 	(label "OCP"
-		(at 261.62 74.93 0)
+		(at 260.35 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8765,7 +8723,7 @@
 		(uuid "affe0c21-5dff-494f-beaf-7dfabf6865b1")
 	)
 	(label "Isense_MOS"
-		(at 261.62 77.47 0)
+		(at 260.35 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8775,7 +8733,7 @@
 		(uuid "b5ed96a6-e757-43aa-949b-0b20937ea244")
 	)
 	(label "temp_MOSFET"
-		(at 261.62 82.55 0)
+		(at 260.35 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8943,28 +8901,6 @@
 			(justify left bottom)
 		)
 		(uuid "fef000a7-62f1-45b7-8bb5-022aa11af185")
-	)
-	(hierarchical_label "Lamp_GND"
-		(shape passive)
-		(at 270.51 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54764159-0796-4b1f-a85a-8e99acd60157")
-	)
-	(hierarchical_label "Lamp_HV"
-		(shape passive)
-		(at 270.51 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f0d9564-38be-4b4e-af1b-2a838463a619")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9450,84 +9386,6 @@
 			(project "Aerolamp_Driver"
 				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 227.33 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06521f1f-7a4f-4563-aeb2-ed970b025014")
-		(property "Reference" "#PWR074"
-			(at 227.33 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 227.33 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 227.33 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a6a9bee-f797-4370-bf48-dd4fee42f6fc")
-		)
-		(instances
-			(project "Aerolamp_Driver"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -17352,7 +17210,7 @@
 	)
 	(symbol
 		(lib_id "Hansmann:B2P5-VH")
-		(at 267.97 53.34 0)
+		(at 270.51 63.5 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -17364,7 +17222,7 @@
 		(fields_autoplaced yes)
 		(uuid "9374c120-b0a3-43cd-a0c6-960192d32a45")
 		(property "Reference" "J103"
-			(at 276.86 35.56 0)
+			(at 279.4 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17374,7 +17232,7 @@
 			)
 		)
 		(property "Value" "B5P-VH"
-			(at 276.86 38.1 0)
+			(at 279.4 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17384,7 +17242,7 @@
 			)
 		)
 		(property "Footprint" "Library:Hansmann__CONN_B2P5-VH_JST_eaa1bd78bf"
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17396,7 +17254,7 @@
 			)
 		)
 		(property "Datasheet" "B5P-VH"
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17408,7 +17266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17419,7 +17277,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17430,7 +17288,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17441,7 +17299,7 @@
 			)
 		)
 		(property "Field10" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17452,7 +17310,7 @@
 			)
 		)
 		(property "L (mH)" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17463,7 +17321,7 @@
 			)
 		)
 		(property "Material" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17474,7 +17332,7 @@
 			)
 		)
 		(property "RDC max. (mΩ)" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17485,7 +17343,7 @@
 			)
 		)
 		(property "VT (V (AC))" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17496,7 +17354,7 @@
 			)
 		)
 		(property "H (mm)" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17507,7 +17365,7 @@
 			)
 		)
 		(property "L (mm)" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17518,7 +17376,7 @@
 			)
 		)
 		(property "VR (V (AC))" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17529,7 +17387,7 @@
 			)
 		)
 		(property "W (mm)" ""
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17540,7 +17398,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B2P5-VH "
-			(at 267.97 53.34 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22659,84 +22517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 233.68 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1ead6f4-206a-4edc-8880-8f91d7373c6f")
-		(property "Reference" "#PWR094"
-			(at 233.68 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 233.68 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 233.68 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd9cafe2-1fd5-453a-bfef-00a459510463")
-		)
-		(instances
-			(project "Aerolamp_Driver"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener_Filled")
 		(at 48.26 31.75 270)
 		(unit 1)
@@ -24510,7 +24290,7 @@
 		)
 	)
 	(sheet
-		(at 208.28 59.69)
+		(at 207.01 59.69)
 		(size 50.8 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24526,7 +24306,7 @@
 		)
 		(uuid "a6851958-ff7d-4101-87c9-84d1a553e12c")
 		(property "Sheetname" "lampDriver"
-			(at 208.28 58.9784 0)
+			(at 207.01 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24537,7 +24317,7 @@
 			)
 		)
 		(property "Sheetfile" "lampDriver.kicad_sch"
-			(at 208.28 84.4046 0)
+			(at 207.01 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24547,28 +24327,8 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" passive
-			(at 227.33 59.69 90)
-			(uuid "8893eab2-44b4-41ab-b9bb-d6aa2052f985")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "15V" passive
-			(at 233.68 59.69 90)
-			(uuid "35e96b46-4c8d-42f2-b919-5750cf66f370")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Lamp_HV" passive
-			(at 259.08 60.96 0)
+			(at 257.81 60.96 0)
 			(uuid "b1957d10-67c1-4834-acb6-dfa7f2192841")
 			(effects
 				(font
@@ -24578,7 +24338,7 @@
 			)
 		)
 		(pin "Lamp_GND" passive
-			(at 259.08 63.5 0)
+			(at 257.81 63.5 0)
 			(uuid "27c5c735-bf2a-4716-bbb6-74dd205125f7")
 			(effects
 				(font
@@ -24588,7 +24348,7 @@
 			)
 		)
 		(pin "VDC_power" passive
-			(at 208.28 63.5 180)
+			(at 207.01 63.5 180)
 			(uuid "37b51ac2-f015-4896-a7b6-906a3ccf3c62")
 			(effects
 				(font
@@ -24598,7 +24358,7 @@
 			)
 		)
 		(pin "DRV" input
-			(at 208.28 69.85 180)
+			(at 207.01 69.85 180)
 			(uuid "851c0639-8b83-432d-98f6-e429d764e0ff")
 			(effects
 				(font
@@ -24608,7 +24368,7 @@
 			)
 		)
 		(pin "Isense_Lamp" input
-			(at 259.08 80.01 0)
+			(at 257.81 80.01 0)
 			(uuid "0748b28c-77ce-4352-9ec2-62325e53011c")
 			(effects
 				(font
@@ -24618,7 +24378,7 @@
 			)
 		)
 		(pin "Isense_MOS" input
-			(at 259.08 77.47 0)
+			(at 257.81 77.47 0)
 			(uuid "b5c1ecda-d910-446d-8660-ceb496156950")
 			(effects
 				(font
@@ -24628,7 +24388,7 @@
 			)
 		)
 		(pin "OCP" input
-			(at 259.08 74.93 0)
+			(at 257.81 74.93 0)
 			(uuid "272856c4-194f-44f9-85b5-5ddda23cf741")
 			(effects
 				(font
@@ -24638,7 +24398,7 @@
 			)
 		)
 		(pin "temp_MOSFET" input
-			(at 259.08 82.55 0)
+			(at 257.81 82.55 0)
 			(uuid "c70aa95d-a27c-4a15-8b51-32b121f1520b")
 			(effects
 				(font
@@ -24648,7 +24408,7 @@
 			)
 		)
 		(pin "Usense_Lamp" input
-			(at 259.08 69.85 0)
+			(at 257.81 69.85 0)
 			(uuid "47090e0d-573e-4945-863d-285c29fa10f3")
 			(effects
 				(font
@@ -24658,7 +24418,7 @@
 			)
 		)
 		(pin "OCP_RESET" input
-			(at 208.28 74.93 180)
+			(at 207.01 74.93 180)
 			(uuid "22d8ef48-d974-4ea4-b199-b4b71040d95c")
 			(effects
 				(font

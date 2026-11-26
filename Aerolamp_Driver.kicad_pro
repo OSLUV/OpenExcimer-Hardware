@@ -582,6 +582,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Lamp_HV": [
+        "HV_Lamp"
+      ],
       "/excimerDriver/EARTH": [
         "MAINS_preFuse"
       ],
@@ -691,7 +694,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "BOM\\BOM_Ripple_Anzeiger.csv",
+    "bom_export_filename": "\\Aerolamp_Powersupply_Bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1135,7 +1138,7 @@
   "sheets": [
     [
       "c6e900e0-9399-44f0-8089-9dd7b8ffe54c",
-      "Aerolamp_Driver_2"
+      "Aerolamp_Driver"
     ],
     [
       "e7473a6b-f9e1-4ed9-a367-84eba1418dac",

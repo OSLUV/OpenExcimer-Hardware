@@ -5461,6 +5461,10 @@
 		(uuid "339e7f1a-7209-4911-84d3-6aeac29add97")
 	)
 	(no_connect
+		(at 68.58 115.57)
+		(uuid "4eec9b3e-fb72-4e06-b97f-1851c06b5c6d")
+	)
+	(no_connect
 		(at 50.8 180.34)
 		(uuid "d0e68f12-9636-4482-b77a-a729b6cbbbd4")
 	)
@@ -5543,16 +5547,6 @@
 			(type default)
 		)
 		(uuid "12ab9368-5f5c-413f-86ca-ffa9b2954684")
-	)
-	(wire
-		(pts
-			(xy 142.24 20.32) (xy 142.24 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148a9977-3c26-4966-b64a-a15c758e7f5c")
 	)
 	(wire
 		(pts
@@ -5743,16 +5737,6 @@
 			(type default)
 		)
 		(uuid "3456f081-fb03-456a-b88b-f58121c673f8")
-	)
-	(wire
-		(pts
-			(xy 118.11 21.59) (xy 124.46 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34dc47e9-cbb5-4a79-8847-2c8bde6e368c")
 	)
 	(wire
 		(pts
@@ -5963,16 +5947,6 @@
 			(type default)
 		)
 		(uuid "62c3856b-d270-429b-80a0-015880e85971")
-	)
-	(wire
-		(pts
-			(xy 124.46 20.32) (xy 124.46 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62e7231a-4e2c-4b03-aa10-eb6890d91caa")
 	)
 	(wire
 		(pts
@@ -6323,16 +6297,6 @@
 			(type default)
 		)
 		(uuid "996c4fdd-6b27-41bf-b3f7-a8019919b467")
-	)
-	(wire
-		(pts
-			(xy 135.89 21.59) (xy 142.24 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99df1957-2a18-46d8-b643-97757971c08f")
 	)
 	(wire
 		(pts
@@ -7181,17 +7145,6 @@
 		)
 		(uuid "71102c52-73fb-4b6c-8748-a47418445e10")
 	)
-	(hierarchical_label "15V"
-		(shape passive)
-		(at 118.11 21.59 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f3c68d0-a6fa-413b-bc73-09d46221378f")
-	)
 	(hierarchical_label "OCP"
 		(shape input)
 		(at 278.13 132.08 0)
@@ -7202,17 +7155,6 @@
 			(justify left)
 		)
 		(uuid "a248b693-e5d9-4c8e-a3c0-0b7ff8bf048e")
-	)
-	(hierarchical_label "3V3"
-		(shape passive)
-		(at 135.89 21.59 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a4500145-e5f7-4652-b512-e39cfba92d03")
 	)
 	(hierarchical_label "Usense_Lamp"
 		(shape input)
@@ -13498,7 +13440,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "33577bcf-4047-4bf1-976b-2529bfadedb9")
 		(property "Reference" "C114"
 			(at 100.838 27.178 0)
@@ -15431,7 +15373,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49257567-cdbc-4706-8442-34a05563c526")
 		(property "Reference" "C113"
 			(at 115.062 27.178 0)
@@ -26164,84 +26106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 124.46 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf7d232a-6f5b-4eb7-92ba-bedfe9ac2ba1")
-		(property "Reference" "#PWR057"
-			(at 124.46 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 124.46 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 124.46 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50ba6737-f2ae-4822-97fe-8160d6e22b03")
-		)
-		(instances
-			(project "Aerolamp_Driver"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/a6851958-ff7d-4101-87c9-84d1a553e12c"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 201.93 68.58 0)
 		(unit 1)
@@ -28814,84 +28678,6 @@
 			(project "Aerolamp_Driver"
 				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/a6851958-ff7d-4101-87c9-84d1a553e12c"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 142.24 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9691d92-870c-41e5-b28f-6b16b9f27696")
-		(property "Reference" "#PWR058"
-			(at 142.24 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 142.24 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 142.24 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6fac8142-0ca4-4336-bd5a-04972e72b19c")
-		)
-		(instances
-			(project "Aerolamp_Driver"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/a6851958-ff7d-4101-87c9-84d1a553e12c"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
